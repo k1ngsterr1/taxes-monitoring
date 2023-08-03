@@ -34,6 +34,14 @@
   font-weight: 600;
   line-height: normal;
 }
+* body p {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: clamp(11px, 1.14576vw, 44px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 * body span {
   color: #007ACC;
 }/*# sourceMappingURL=general-styles.css.map */
