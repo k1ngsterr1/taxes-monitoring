@@ -5,3 +5,7 @@ declare module "react-burger-menu" {
 declare module "react-scroll" {
   export { Link } from "react-scroll";
 }
+
+declare module "mdb-react-ui-kit" {
+  export { MDBAccordion, MDBAccordionItem, MDBIcon } from "mdb-react-ui-kit";
+}

@@ -18,7 +18,7 @@ $m16: clamp(8px,0.83328vw,32px)
 $m8: clamp(4px,0.41664vw,16px)
 
 $m128mob: clamp(64px,29.90592vw,256px)
-$m64mob: clamp(32px,3.33312vw,128px)
+$m64mob: clamp(32px,14.95296vw,128px)
 $m32mob: clamp(16px,7.47648vw,64px)
 $m16mob: clamp(8px,3.73824vw,32px)
 $m8mob: clamp(4px,1.86912vw,16px)
@@ -47,9 +47,69 @@ $container: 86.45833333333333%
         width: 100%
         height: auto
 
-        .container
-            width: $container
-            margin: auto
-            align-items: center
-            display: flex
-            flex-direction: column
+        .about-screen
+            margin-top: clamp(50px,23.363999999999997vw,200px)
+
+            .container
+                width: $container
+                margin: auto
+                align-items: center
+                display: flex
+                flex-direction: column
+
+                .additional-text
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+
+                    .mini-text
+                        font-style: normal
+                        font-weight: 600
+                        line-height: normal
+                        font-family: 'Raleway', sans-serif
+
+                    .line
+                        width: 100%
+                        height: 1px
+                        background-color: $brightBlue
+                        margin-top: $m16mob
+
+                .heading
+                    color: $darkGray
+                    text-align: center
+                    margin: auto
+                    margin-top: $m32mob
+                    font-family: Raleway
+                    font-size: clamp(12px,5.60736vw,48px)
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 140.4%
+                    text-transform: uppercase
+
+                .tabs
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    margin-top: $m64mob
+                    text-align: center
+
+                    .tab
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        margin-top: $m32mob
+
+                        .tab-text
+                            margin-top: $m16mob
+                            color: #333
+                            text-align: center
+                            font-family: Open Sans
+                            font-size: clamp(7.5px,3.5046vw,30px)
+                            font-style: normal
+                            font-weight: 400
+                            line-height: normal
+
+                .accordions
+                    display: flex
+                    flex-direction: column
+                    margin-top: $m32mob
