@@ -44,4 +44,7 @@
 }
 * body span {
   color: #007ACC;
+}
+* body a, * body button {
+  cursor: pointer;
 }/*# sourceMappingURL=general-styles.css.map */
