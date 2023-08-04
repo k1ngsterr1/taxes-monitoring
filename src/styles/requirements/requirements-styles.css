@@ -103,5 +103,8 @@
   font-size: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
   font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  margin-top: clamp(32px, 14.95296vw, 128px);
   line-height: normal;
 }/*# sourceMappingURL=requirements-styles.css.map */
