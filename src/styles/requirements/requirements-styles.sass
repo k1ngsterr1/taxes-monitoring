@@ -47,26 +47,88 @@ $container: 86.45833333333333%
         width: 100%
         height: auto
 
-        .container
-            width: $container
-            height: auto
-            display: flex
-            flex-direction: column
-            margin: auto
+        .requirements-screen
+            margin-top: clamp(50px,23.363999999999997vw,200px)
 
-            .heading
-                color: $darkGray
-                text-align: center
-                font-family: "Raleway"
-                font-style: normal
-                font-weight: 800
-                text-transform: uppercase
+            .container
+                width: $container
+                height: auto
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                margin: auto
 
-            .paragraph
-                color: #333
-                text-align: center
-                font-family: "Open Sans"
-                font-size: clamp(7px,3.2709599999999996vw,28px)
-                font-style: normal
-                font-weight: 400
-                line-height: normal
+                .heading
+                    color: $darkGray
+                    text-align: center
+                    margin: auto
+                    margin-top: $m32mob
+                    font-family: Raleway
+                    font-size: clamp(12px,5.60736vw,48px)
+                    font-style: normal
+                    font-weight: 800
+                    line-height: 140.4%
+                    text-transform: uppercase
+
+                .star
+                    margin-top: $m32mob
+
+                .paragraph
+                    color: #333
+                    text-align: center
+                    font-family: "Open Sans"
+                    font-size: clamp(7px,3.2709599999999996vw,28px)
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal
+                    margin-top: $m32mob
+
+                .box
+                    width: 100%
+                    height: auto
+                    border-radius: 10px
+                    background: #F1F1F1
+                    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.10)
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    margin-top: $m64mob
+
+                    .number-container
+                        width: clamp(21px,9.81288vw,84px)
+                        height: clamp(21px,9.81288vw,84px)
+                        background-color: $brightBlue
+                        border-radius: 100px
+                        margin-top: $m32mob
+
+                        .number
+                            color: #FFF
+                            text-align: center
+                            font-family: "Open Sans"
+                            margin-top: clamp(2px,0.93456vw,8px)
+                            font-size: clamp(12px,5.60736vw,48px)
+                            font-style: normal
+                            font-weight: 600
+                            line-height: normal
+
+                    .box-heading
+                        color: $darkGray
+                        text-align: center
+                        font-family: "Open Sans"
+                        margin-top: $m8mob
+                        font-size: clamp(9px,4.20552vw,36px)
+                        font-style: normal
+                        font-weight: 600
+                        line-height: normal
+
+                    .box-text
+                        width: 70%
+                        font-family: Open Sans
+                        font-size: clamp(8.5px,3.9718799999999996vw,34px)
+                        font-style: normal
+                        text-align: center
+                        font-weight: 400
+                        margin-top: $m16mob
+                        margin-bottom: $m32mob
+                        line-height: normal

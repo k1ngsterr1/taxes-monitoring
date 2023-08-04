@@ -11,7 +11,7 @@
 * body .a-paragraph {
   margin-top: clamp(7px, 3.27096vw, 28px);
   margin-left: clamp(4px, 1.86912vw, 16px);
-  font-size: 15px;
+  font-size: clamp(7.5px, 3.5046vw, 30px) !important;
   text-align: left;
 }
 * body .about-screen {

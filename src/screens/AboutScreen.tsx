@@ -41,7 +41,7 @@ const AboutScreen = () => {
             ></Tab>
           </div>
           <div className="accordions">
-            <MDBAccordion initialActive={1}>
+            <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
                 headerTitle={
@@ -60,7 +60,7 @@ const AboutScreen = () => {
                 9 месяцев после окончания налогового периода.
               </MDBAccordionItem>
             </MDBAccordion>
-            <MDBAccordion initialActive={1}>
+            <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
                 headerTitle={
@@ -78,7 +78,7 @@ const AboutScreen = () => {
                 другая трактовка законодательства.
               </MDBAccordionItem>
             </MDBAccordion>
-            <MDBAccordion initialActive={1}>
+            <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
                 headerTitle={
@@ -92,7 +92,7 @@ const AboutScreen = () => {
                 конкретной хозяйственной ситуации.
               </MDBAccordionItem>
             </MDBAccordion>
-            <MDBAccordion initialActive={1}>
+            <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
                 headerTitle={
@@ -116,7 +116,7 @@ const AboutScreen = () => {
                 документов через интеграцию с АИС-Налог 3
               </MDBAccordionItem>
             </MDBAccordion>
-            <MDBAccordion initialActive={1}>
+            <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
                 headerTitle={

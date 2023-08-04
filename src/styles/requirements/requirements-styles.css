@@ -8,27 +8,89 @@
   width: 100%;
   height: auto;
 }
-* body .container {
+* body .requirements-screen {
+  margin-top: clamp(50px, 23.364vw, 200px);
+}
+* body .requirements-screen .container {
   width: 86.4583333333%;
   height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: auto;
 }
-* body .container .heading {
+* body .requirements-screen .container .heading {
   color: #333333;
   text-align: center;
-  font-family: "Raleway";
+  margin: auto;
+  margin-top: clamp(16px, 7.47648vw, 64px);
+  font-family: Raleway;
+  font-size: clamp(12px, 5.60736vw, 48px);
   font-style: normal;
   font-weight: 800;
+  line-height: 140.4%;
   text-transform: uppercase;
 }
-* body .container .paragraph {
+* body .requirements-screen .container .star {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* body .requirements-screen .container .paragraph {
   color: #333;
   text-align: center;
   font-family: "Open Sans";
   font-size: clamp(7px, 3.27096vw, 28px);
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* body .requirements-screen .container .box {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #F1F1F1;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+* body .requirements-screen .container .box .number-container {
+  width: clamp(21px, 9.81288vw, 84px);
+  height: clamp(21px, 9.81288vw, 84px);
+  background-color: #007ACC;
+  border-radius: 100px;
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* body .requirements-screen .container .box .number-container .number {
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-top: clamp(2px, 0.93456vw, 8px);
+  font-size: clamp(12px, 5.60736vw, 48px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+* body .requirements-screen .container .box .box-heading {
+  color: #333333;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-top: clamp(4px, 1.86912vw, 16px);
+  font-size: clamp(9px, 4.20552vw, 36px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+* body .requirements-screen .container .box .box-text {
+  width: 70%;
+  font-family: Open Sans;
+  font-size: clamp(8.5px, 3.97188vw, 34px);
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+  margin-bottom: clamp(16px, 7.47648vw, 64px);
   line-height: normal;
 }/*# sourceMappingURL=requirements-styles.css.map */
