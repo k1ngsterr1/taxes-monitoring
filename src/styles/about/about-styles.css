@@ -9,7 +9,10 @@
   height: auto;
 }
 * body .a-paragraph {
-  background-color: red;
+  margin-top: clamp(7px, 3.27096vw, 28px);
+  margin-left: clamp(4px, 1.86912vw, 16px);
+  font-size: 15px;
+  text-align: left;
 }
 * body .about-screen {
   margin-top: clamp(50px, 23.364vw, 200px);
