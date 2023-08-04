@@ -1,0 +1,72 @@
+
+// Font Links:
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')// Colors:
+
+// Colors:
+
+$brightBlue: #007ACC
+$lightGray: #F1F1F1
+$darkGray: #333333
+
+// Margins:
+
+$m128: clamp(64px,6.66624vw,256px)
+$m64: clamp(32px,3.33312vw,128px)
+$m32: clamp(16px,1.66656vw,64px)
+$m16: clamp(8px,0.83328vw,32px)
+$m8: clamp(4px,0.41664vw,16px)
+
+$m128mob: clamp(64px,29.90592vw,256px)
+$m64mob: clamp(32px,14.95296vw,128px)
+$m32mob: clamp(16px,7.47648vw,64px)
+$m16mob: clamp(8px,3.73824vw,32px)
+$m8mob: clamp(4px,1.86912vw,16px)
+
+// Fonts:
+
+$f48: clamp(24px,2.49984vw,96px)
+$f36: clamp(18px,1.87488vw,72px)
+$f28: clamp(14px,1.45824vw,56px)
+$f25: clamp(12.5px,1.302vw,50px)
+$f24: clamp(12px,1.24992vw,48px)
+$f22: clamp(11px,1.1457600000000001vw,44px)
+$f21: clamp(10.5px,1.09368vw,42px)
+$f16: clamp(8px,0.83328vw,32px)
+
+// Percents:
+
+$container: 86.45833333333333%
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+    body
+        width: 100%
+        height: auto
+
+        .container
+            width: $container
+            height: auto
+            display: flex
+            flex-direction: column
+            margin: auto
+
+            .heading
+                color: $darkGray
+                text-align: center
+                font-family: "Raleway"
+                font-style: normal
+                font-weight: 800
+                text-transform: uppercase
+
+            .paragraph
+                color: #333
+                text-align: center
+                font-family: "Open Sans"
+                font-size: clamp(7px,3.2709599999999996vw,28px)
+                font-style: normal
+                font-weight: 400
+                line-height: normal

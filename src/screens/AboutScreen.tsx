@@ -46,7 +46,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon far icon="clock" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="clock" size="xl" /> &nbsp;
                     <p className="a-paragraph">
                       Сокращение проведения контрольных мероприятий
                     </p>
@@ -65,7 +65,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon far icon="file-alt" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="file-alt" size="xl" /> &nbsp;
                     <p className="a-paragraph">Управление рисками</p>
                   </>
                 }
@@ -76,6 +76,59 @@ const AboutScreen = () => {
                 сформированной судебной практикой за 2-3 года до вынесения
                 решения по проверке, хотя в проверяемом периоде могла быть
                 другая трактовка законодательства.
+              </MDBAccordionItem>
+            </MDBAccordion>
+            <MDBAccordion initialActive={1}>
+              <MDBAccordionItem
+                collapseId={1}
+                headerTitle={
+                  <>
+                    <MDBIcon fas icon="balance-scale" size="xl" /> &nbsp;
+                    <p className="a-paragraph">Мотивированное мнение</p>
+                  </>
+                }
+              >
+                Возможность получить мотивированное мнение налогового органа по
+                конкретной хозяйственной ситуации.
+              </MDBAccordionItem>
+            </MDBAccordion>
+            <MDBAccordion initialActive={1}>
+              <MDBAccordionItem
+                collapseId={1}
+                headerTitle={
+                  <>
+                    <MDBIcon fas icon="cog" size="xl" /> &nbsp;
+                    <p className="a-paragraph">
+                      Автоматизация взаимодействия с налоговым органом
+                    </p>
+                  </>
+                }
+              >
+                Предоставление документов осуществляется в рамках регламента
+                информационного взаимодействия в установленные сроки <br />
+                <br /> Автоматизация взаимодействия и представления документов 
+                Сокращение объема запрашиваемых документов.
+                <br />
+                <br />
+                На практике количество запрашиваемых документов сокращается
+                более чем в 10 раз <br />
+                <br /> Сокращение трудозатрат на подбор и предоставление
+                документов через интеграцию с АИС-Налог 3
+              </MDBAccordionItem>
+            </MDBAccordion>
+            <MDBAccordion initialActive={1}>
+              <MDBAccordionItem
+                collapseId={1}
+                headerTitle={
+                  <>
+                    <MDBIcon fas icon="chart-line" size="xl" /> &nbsp;
+                    <p className="a-paragraph">
+                      Развитие системы внутреннего контроля
+                    </p>
+                  </>
+                }
+              >
+                Снижение риска «человеческого фактора»
               </MDBAccordionItem>
             </MDBAccordion>
           </div>
