@@ -55,6 +55,7 @@ const RequirementsScreen = () => {
           propHeading="Критерий"
           propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
         ></Box>
+        <button className="request">Оставить заявку</button>
       </div>
     </div>
   );
