@@ -48,7 +48,7 @@ $container: 86.45833333333333%
         height: auto
 
         .results-screen
-            margin-top: $m32mob
+            margin-top: clamp(50px,23.363999999999997vw,200px)
 
             .container
                 width: $container
@@ -56,3 +56,92 @@ $container: 86.45833333333333%
                 display: flex
                 flex-direction: column
                 align-items: center
+
+                .additional-text
+                    width: 100%
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+
+                    .mini-text
+                        font-style: normal
+                        font-weight: 600
+                        line-height: normal
+                        font-family: 'Raleway', sans-serif
+
+                    .line
+                        width: 100%
+                        height: 1px
+                        background-color: $brightBlue
+                        margin-top: 0px
+
+                .heading
+                    text-align: center
+
+                .star-tab
+                    width: 100%
+                    height: clamp(108.5px,50.69988vw,434px)
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    border-radius: 10px
+                    background: #F1F1F1
+                    margin-top: $m32mob
+
+                    .star-text
+                        color: $darkGray
+                        text-align: center
+                        font-family: Open Sans
+                        font-size: clamp(10.5px,4.90644vw,42px)
+                        font-style: normal
+                        font-weight: 600
+                        margin-top: $m16mob
+
+                .between-line
+                    width: 100%
+                    height: 1px
+                    background-color: $brightBlue
+                    margin-top: $m32mob
+
+                .star-tab-m
+                    width: 100%
+                    height: clamp(157.5px,73.5966vw,630px)
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    border-radius: 10px
+                    background: #F1F1F1
+                    margin-top: $m32mob
+
+                    .star-text
+                        width: 80%
+                        color: $darkGray
+                        text-align: center
+                        font-family: Open Sans
+                        font-size: clamp(10.5px,4.90644vw,42px)
+                        font-style: normal
+                        font-weight: 600
+                        margin-top: $m16mob
+
+                .star-tab-b
+                    width: 100%
+                    height: clamp(164.5px,76.86756vw,658px)
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    border-radius: 10px
+                    background: #F1F1F1
+                    margin-top: $m32mob
+
+                    .star-text
+                        width: 90%
+                        color: $darkGray
+                        text-align: center
+                        font-family: Open Sans
+                        font-size: clamp(10.5px,4.90644vw,42px)
+                        font-style: normal
+                        font-weight: 600
+                        margin-top: $m16mob

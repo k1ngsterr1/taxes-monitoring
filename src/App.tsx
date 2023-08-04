@@ -5,6 +5,7 @@ import RequirementsScreen from "screens/RequirementsScreen";
 import FeaturesScreen from "screens/FeaturesScreen";
 import RealisationScreen from "screens/RealisationScreen";
 import ResultsScreen from "screens/ResultsScreen";
+import RoadmapScreen from "screens/RoadmapScreen";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <FeaturesScreen />
       <RealisationScreen />
       <ResultsScreen />
+      <RoadmapScreen />
     </div>
   );
 };
