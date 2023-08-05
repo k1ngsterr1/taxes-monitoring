@@ -19,7 +19,7 @@ const FeaturesScreen = () => {
   };
 
   return (
-    <div className="features-screen">
+    <div className="features-screen" id="features">
       <div className="container">
         <div className="additional-text">
           <p className="mini-text">Наши преимущества</p>

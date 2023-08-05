@@ -27,7 +27,7 @@ const RequirementsScreen = () => {
   };
 
   return (
-    <div className="requirements-screen">
+    <div className="requirements-screen" id="requirements">
       <div className="container">
         <h2 className="heading">
           Критерии для вступления в <span>налоговый мониторинг</span>

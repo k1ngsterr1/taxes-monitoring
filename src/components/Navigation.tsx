@@ -94,6 +94,10 @@ const Navigation = () => {
       <span className="logo">Logo</span>
       <Menu right styles={styles}>
         <Link>Главная</Link>
+        <Link>Преимущества</Link>
+        <Link>Дорожная карта</Link>
+        <Link>Новости</Link>
+        <Link>Статьи</Link>
       </Menu>
     </nav>
   );

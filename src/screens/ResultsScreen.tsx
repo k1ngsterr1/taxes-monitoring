@@ -36,7 +36,7 @@ const ResultsScreen = () => {
   };
 
   return (
-    <div className="results-screen">
+    <div className="results-screen" id="results">
       <div className="container">
         <div className="additional-text">
           <p className="mini-text">Итоги</p>

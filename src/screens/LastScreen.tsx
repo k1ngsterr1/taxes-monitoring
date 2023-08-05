@@ -8,7 +8,7 @@ import "../styles/last/last-styles.css";
 
 const LastScreen = () => {
   return (
-    <div className="last-screen">
+    <div className="last-screen" id="last">
       <div className="container">
         <div className="additional-text">
           <p className="mini-text">Результаты</p>

@@ -8,7 +8,7 @@ import arrow from "../assets/arrow.svg";
 
 const MainScreen = () => {
   return (
-    <div className="main-screen">
+    <div className="main-screen" id="main">
       <Navigation />
       <div className="container">
         <main className="main-content">

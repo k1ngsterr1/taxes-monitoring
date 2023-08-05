@@ -31,7 +31,7 @@ const RoadmapScreen = () => {
   };
 
   return (
-    <div className="roadmap-screen">
+    <div className="roadmap-screen" id="roadmap">
       <div className="container">
         <div className="additional-text">
           <p className="mini-text">Этапы работы</p>

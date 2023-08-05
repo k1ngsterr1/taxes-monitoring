@@ -20,7 +20,7 @@ const AboutScreen = () => {
   };
 
   return (
-    <div className="about-screen">
+    <div className="about-screen" id="about">
       <div className="container">
         <div className="additional-text">
           <span className="mini-text">О налоговом мониторинге</span>

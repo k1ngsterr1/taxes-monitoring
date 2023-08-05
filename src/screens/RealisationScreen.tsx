@@ -20,7 +20,7 @@ const Star: React.FC<starProps> = (props) => {
 
 const RealisationScreen = () => {
   return (
-    <div className="realisation-screen">
+    <div className="realisation-screen" id="realisation">
       <div className="container">
         <div className="additional-text">
           <p className="mini-text">Реализация</p>
