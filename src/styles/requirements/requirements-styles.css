@@ -96,7 +96,7 @@
 }
 * body .requirements-screen .container .request {
   width: clamp(145px, 67.7556vw, 580px);
-  height: clamp(22.5px, 10.5138vw, 90px);
+  height: clamp(28px, 13.08384vw, 112px);
   background-color: #007ACC;
   color: #FFF;
   font-family: Raleway;

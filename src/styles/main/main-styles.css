@@ -59,7 +59,7 @@
 }
 * body .container .main-content .consult-button {
   width: clamp(145px, 67.7556vw, 580px);
-  height: clamp(22.5px, 10.5138vw, 90px);
+  height: clamp(28px, 13.08384vw, 112px);
   border: none;
   border-radius: 4px;
   margin-top: clamp(32px, 14.95296vw, 128px);
@@ -73,7 +73,7 @@
 }
 * body .container .main-content .more-button {
   width: clamp(145px, 67.7556vw, 580px);
-  height: clamp(22.5px, 10.5138vw, 90px);
+  height: clamp(28px, 13.08384vw, 112px);
   border: 3px solid #007ACC;
   border-radius: 4px;
   margin-top: clamp(16px, 7.47648vw, 64px);
