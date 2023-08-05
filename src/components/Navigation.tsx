@@ -60,7 +60,7 @@ var styles = {
     display: "flex",
     flexDirection: "column",
     paddingRight: "0px",
-    paddingLeft: "clamp(50px,23.363999999999997vw,200px)",
+    paddingLeft: "10px",
     paddingTop: "clamp(32px,14.95296vw,128px)",
     fontFamily: "Poppins, sans-serif",
     fontStyle: "normal",
@@ -93,11 +93,13 @@ const Navigation = () => {
     <nav className="mob-nav">
       <span className="logo">Logo</span>
       <Menu right styles={styles}>
-        <Link>Главная</Link>
-        <Link>Преимущества</Link>
-        <Link>Дорожная карта</Link>
-        <Link>Новости</Link>
-        <Link>Статьи</Link>
+        <Link to="main">Главная</Link>
+        <Link to="features">Критерии</Link>
+        <Link to="features">Преимущества</Link>
+        <Link to="features">Реализация</Link>
+        <Link to="features">Итоги</Link>
+        <Link to="roadmap">Дорожная карта</Link>
+        <Link to="features">Результаты</Link>
       </Menu>
     </nav>
   );
