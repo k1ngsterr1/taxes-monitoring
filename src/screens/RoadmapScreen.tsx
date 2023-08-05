@@ -9,6 +9,8 @@ import rocket from "../assets/rocketMap.svg";
 
 import "../styles/roadmap/roadmap-styles.css";
 
+const Fade = require("react-reveal/Fade");
+
 interface RoadmapProps {
   numberProp: string;
   textProp: string;
@@ -33,42 +35,58 @@ const RoadmapScreen = () => {
   return (
     <div className="roadmap-screen" id="roadmap">
       <div className="container">
-        <div className="additional-text">
-          <p className="mini-text">Этапы работы</p>
-          <figure className="line"></figure>
-        </div>
-        <h2 className="heading">Дорожная карта</h2>
+        <Fade bottom>
+          <div className="additional-text">
+            <p className="mini-text">Этапы работы</p>
+            <figure className="line"></figure>
+          </div>
+        </Fade>
+        <Fade bottom>
+          <h2 className="heading">Дорожная карта</h2>
+        </Fade>
         <div className="roadmap-container">
-          <Step
-            numberProp="01"
-            textProp="Диагностика, перечень требуемых изменений"
-            imageProp={search}
-          ></Step>
-          <Step
-            numberProp="02"
-            textProp="Разработка ФТТ и определение совокупной стоимости перехода в НМ"
-            imageProp={settings}
-          ></Step>
-          <Step
-            numberProp="03"
-            textProp="Определение совокупных доходов от перехода в НМ"
-            imageProp={coins}
-          ></Step>
-          <Step
-            numberProp="04"
-            textProp="Методологическая подготовка к проекту"
-            imageProp={puzzle}
-          ></Step>
-          <Step
-            numberProp="05"
-            textProp="Проектные работы"
-            imageProp={stats}
-          ></Step>
-          <Step
-            numberProp="06"
-            textProp="Проектная поддержка по реализованному функционалу"
-            imageProp={rocket}
-          ></Step>
+          <Fade bottom>
+            <Step
+              numberProp="01"
+              textProp="Диагностика, перечень требуемых изменений"
+              imageProp={search}
+            ></Step>
+          </Fade>
+          <Fade bottom>
+            <Step
+              numberProp="02"
+              textProp="Разработка ФТТ и определение совокупной стоимости перехода в НМ"
+              imageProp={settings}
+            ></Step>
+          </Fade>
+          <Fade bottom>
+            <Step
+              numberProp="03"
+              textProp="Определение совокупных доходов от перехода в НМ"
+              imageProp={coins}
+            ></Step>
+          </Fade>
+          <Fade bottom>
+            <Step
+              numberProp="04"
+              textProp="Методологическая подготовка к проекту"
+              imageProp={puzzle}
+            ></Step>
+          </Fade>
+          <Fade bottom>
+            <Step
+              numberProp="05"
+              textProp="Проектные работы"
+              imageProp={stats}
+            ></Step>
+          </Fade>
+          <Fade bottom>
+            <Step
+              numberProp="06"
+              textProp="Проектная поддержка по реализованному функционалу"
+              imageProp={rocket}
+            ></Step>
+          </Fade>
         </div>
       </div>
     </div>

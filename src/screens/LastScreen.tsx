@@ -12,19 +12,19 @@ const LastScreen = () => {
   return (
     <div className="last-screen" id="last">
       <div className="container">
-        <Fade bottom delay={100}>
+        <Fade bottom>
           <div className="additional-text">
             <p className="mini-text">Результаты</p>
             <figure className="line"></figure>
           </div>
         </Fade>
-        <Fade bottom delay={200}>
+        <Fade bottom>
           <h2 className="heading">
             Результаты внедрения решения <span>по налоговому мониторингу</span>
           </h2>
         </Fade>
         <div className="taxes-monitoring-one">
-          <Fade bottom delay={300}>
+          <Fade bottom>
             <div className="star-container">
               <img className="star" src={star} alt="star"></img>
               <p className="star-text">
@@ -33,7 +33,7 @@ const LastScreen = () => {
               </p>
             </div>
           </Fade>
-          <Fade bottom delay={400}>
+          <Fade bottom>
             <div className="star-container">
               <img className="star" src={star} alt="star"></img>
               <p className="star-text">
@@ -42,7 +42,7 @@ const LastScreen = () => {
               </p>
             </div>
           </Fade>
-          <Fade bottom delay={500}>
+          <Fade bottom>
             <div className="star-container">
               <img className="star" src={star} alt="star"></img>
               <p className="star-text">
@@ -50,7 +50,7 @@ const LastScreen = () => {
               </p>
             </div>
           </Fade>
-          <Fade bottom delay={600}>
+          <Fade bottom>
             <img
               src={illustrationOne}
               alt="illustration"
@@ -58,13 +58,13 @@ const LastScreen = () => {
             />
           </Fade>
         </div>
-        <Fade bottom delay={700}>
+        <Fade bottom>
           <figure className="line-2"></figure>
         </Fade>
 
         <div className="taxes-monitoring-two">
           <div className="star-container">
-            <Fade bottom delay={800}>
+            <Fade bottom>
               <img src={star} alt="star" className="star" />
               <p className="star-text">
                 База для совершенствования зависимых и кросс-зависимых процессов
@@ -73,23 +73,29 @@ const LastScreen = () => {
             </Fade>
           </div>
           <div className="star-container">
-            <img src={star} alt="star" className="star" />
-            <p className="star-text">
-              Лидерские позиции среди крупнейших компаний по внедрению данного
-              формата взаимодействия с налоговыми органами РФ
-            </p>
+            <Fade bottom>
+              <img src={star} alt="star" className="star" />
+              <p className="star-text">
+                Лидерские позиции среди крупнейших компаний по внедрению данного
+                формата взаимодействия с налоговыми органами РФ
+              </p>
+            </Fade>
           </div>
           <div className="star-container">
-            <img src={star} alt="star" className="star" />
-            <p className="star-text">
-              Консистентные, сопоставимые и неизменные учетные данные
-            </p>
+            <Fade bottom>
+              <img src={star} alt="star" className="star" />
+              <p className="star-text">
+                Консистентные, сопоставимые и неизменные учетные данные
+              </p>
+            </Fade>
           </div>
-          <img
-            src={illustrationTwo}
-            alt="illustration"
-            className="illustration-two"
-          />
+          <Fade bottom>
+            <img
+              src={illustrationTwo}
+              alt="illustration"
+              className="illustration-two"
+            />
+          </Fade>
         </div>
       </div>
     </div>

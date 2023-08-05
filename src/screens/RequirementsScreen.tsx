@@ -31,15 +31,15 @@ const RequirementsScreen = () => {
   return (
     <div className="requirements-screen" id="requirements">
       <div className="container">
-        <Fade bottom delay={100}>
+        <Fade bottom>
           <h2 className="heading">
             Критерии для вступления в <span>налоговый мониторинг</span>
           </h2>
         </Fade>
-        <Fade bottom delay={200}>
+        <Fade bottom>
           <img className="star" src={star} alt="star"></img>
         </Fade>
-        <Fade bottom delay={300}>
+        <Fade bottom>
           <p className="paragraph">
             На этапе внедрения налогового мониторинга в России перейти на
             налоговый мониторинг могли только самые крупные компании. Постепенно
@@ -48,28 +48,28 @@ const RequirementsScreen = () => {
             требованиям:
           </p>
         </Fade>
-        <Fade bottom delay={400}>
+        <Fade bottom>
           <Box
             propNumber="1"
             propHeading="Критерий"
             propText="<span><b>100 млн рублей</b></span> - общая сумма налогов за год"
           ></Box>
         </Fade>
-        <Fade bottom delay={500}>
+        <Fade bottom>
           <Box
             propNumber="2"
             propHeading="Критерий"
             propText="<span><b>1 млрд рублей </b></span> - сумма полученных доходов организацией"
           ></Box>
         </Fade>
-        <Fade bottom delay={600}>
+        <Fade bottom>
           <Box
             propNumber="3"
             propHeading="Критерий"
             propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
           ></Box>
         </Fade>
-        <Fade bottom delay={700}>
+        <Fade bottom>
           <button className="request">Оставить заявку</button>
         </Fade>
       </div>
