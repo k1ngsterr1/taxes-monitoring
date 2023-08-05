@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  width: 100%;
+  height: auto;
+}
+* body .last-screen {
+  margin-top: clamp(50px, 23.364vw, 200px);
+}
+* body .last-screen .container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .last-screen .container .additional-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .last-screen .container .additional-text .mini-text {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: "Raleway", sans-serif;
+}
+* body .last-screen .container .additional-text .line {
+  width: 100%;
+  height: 1px;
+  background-color: #007ACC;
+}
+* body .last-screen .container .heading {
+  width: 90%;
+  color: #333333;
+  text-align: center;
+  margin: auto;
+  margin-top: clamp(16px, 7.47648vw, 64px);
+  font-family: Raleway;
+  font-size: clamp(12px, 5.60736vw, 48px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140.4%;
+  text-transform: uppercase;
+}
+* body .last-screen .container .taxes-monitoring-one {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .last-screen .container .taxes-monitoring-one .star-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+* body .last-screen .container .taxes-monitoring-one .star-container .star-text {
+  color: #333333;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: clamp(8px, 3.73824vw, 32px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+* body .last-screen .container .taxes-monitoring-one .illustration-one {
+  width: clamp(178.5px, 83.40948vw, 714px);
+  height: clamp(122.5px, 57.2418vw, 490px);
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+* body .last-screen .container .line-2 {
+  width: 100%;
+  height: 1px;
+  background-color: #007ACC;
+}
+* body .last-screen .container .taxes-monitoring-two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .last-screen .container .taxes-monitoring-two .star-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+* body .last-screen .container .taxes-monitoring-two .star-container .star-text {
+  color: #333333;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: clamp(8px, 3.73824vw, 32px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+* body .last-screen .container .taxes-monitoring-two .illustration-two {
+  width: clamp(178.5px, 83.40948vw, 714px);
+  height: clamp(122.5px, 57.2418vw, 490px);
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}/*# sourceMappingURL=last-styles.css.map */

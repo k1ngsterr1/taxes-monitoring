@@ -52,22 +52,22 @@ const RoadmapScreen = () => {
           <Step
             numberProp="03"
             textProp="Определение совокупных доходов от перехода в НМ"
-            imageProp={settings}
+            imageProp={coins}
           ></Step>
           <Step
             numberProp="04"
             textProp="Методологическая подготовка к проекту"
-            imageProp={settings}
+            imageProp={puzzle}
           ></Step>
           <Step
             numberProp="05"
             textProp="Проектные работы"
-            imageProp={settings}
+            imageProp={stats}
           ></Step>
           <Step
             numberProp="06"
             textProp="Проектная поддержка по реализованному функционалу"
-            imageProp={settings}
+            imageProp={rocket}
           ></Step>
         </div>
       </div>
