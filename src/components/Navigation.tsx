@@ -94,12 +94,12 @@ const Navigation = () => {
       <span className="logo">Logo</span>
       <Menu right styles={styles}>
         <Link to="main">Главная</Link>
-        <Link to="features">Критерии</Link>
+        <Link to="requirements">Критерии</Link>
         <Link to="features">Преимущества</Link>
-        <Link to="features">Реализация</Link>
-        <Link to="features">Итоги</Link>
+        <Link to="realisation">Реализация</Link>
+        <Link to="results">Итоги</Link>
         <Link to="roadmap">Дорожная карта</Link>
-        <Link to="features">Результаты</Link>
+        <Link to="last">Результаты</Link>
       </Menu>
     </nav>
   );

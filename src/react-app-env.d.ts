@@ -9,3 +9,7 @@ declare module "react-scroll" {
 declare module "mdb-react-ui-kit" {
   export { MDBAccordion, MDBAccordionItem, MDBIcon } from "mdb-react-ui-kit";
 }
+
+declare module "react-reveal/Fade" {
+  export { Fade } from "react-reveal/Fade";
+}

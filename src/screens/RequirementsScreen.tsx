@@ -4,6 +4,8 @@ import "../styles/requirements/requirements-styles.css";
 
 import star from "../assets/star.svg";
 
+const Fade = require("react-reveal/Fade");
+
 interface BoxProps {
   propNumber: string;
   propHeading: string;
@@ -29,33 +31,47 @@ const RequirementsScreen = () => {
   return (
     <div className="requirements-screen" id="requirements">
       <div className="container">
-        <h2 className="heading">
-          Критерии для вступления в <span>налоговый мониторинг</span>
-        </h2>
-        <img className="star" src={star} alt="star"></img>
-        <p className="paragraph">
-          На этапе внедрения налогового мониторинга в России перейти на
-          налоговый мониторинг могли только самые крупные компании. Постепенно
-          критерии для получения права вхождения в налоговый мониторинг
-          смягчаются, и сейчас компания должна отвечать одновременно следующим
-          требованиям:
-        </p>
-        <Box
-          propNumber="1"
-          propHeading="Критерий"
-          propText="<span><b>100 млн рублей</b></span> - общая сумма налогов за год"
-        ></Box>
-        <Box
-          propNumber="2"
-          propHeading="Критерий"
-          propText="<span><b>1 млрд рублей </b></span> - сумма полученных доходов организацией"
-        ></Box>
-        <Box
-          propNumber="3"
-          propHeading="Критерий"
-          propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
-        ></Box>
-        <button className="request">Оставить заявку</button>
+        <Fade bottom delay={100}>
+          <h2 className="heading">
+            Критерии для вступления в <span>налоговый мониторинг</span>
+          </h2>
+        </Fade>
+        <Fade bottom delay={200}>
+          <img className="star" src={star} alt="star"></img>
+        </Fade>
+        <Fade bottom delay={300}>
+          <p className="paragraph">
+            На этапе внедрения налогового мониторинга в России перейти на
+            налоговый мониторинг могли только самые крупные компании. Постепенно
+            критерии для получения права вхождения в налоговый мониторинг
+            смягчаются, и сейчас компания должна отвечать одновременно следующим
+            требованиям:
+          </p>
+        </Fade>
+        <Fade bottom delay={400}>
+          <Box
+            propNumber="1"
+            propHeading="Критерий"
+            propText="<span><b>100 млн рублей</b></span> - общая сумма налогов за год"
+          ></Box>
+        </Fade>
+        <Fade bottom delay={500}>
+          <Box
+            propNumber="2"
+            propHeading="Критерий"
+            propText="<span><b>1 млрд рублей </b></span> - сумма полученных доходов организацией"
+          ></Box>
+        </Fade>
+        <Fade bottom delay={600}>
+          <Box
+            propNumber="3"
+            propHeading="Критерий"
+            propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
+          ></Box>
+        </Fade>
+        <Fade bottom delay={700}>
+          <button className="request">Оставить заявку</button>
+        </Fade>
       </div>
     </div>
   );

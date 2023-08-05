@@ -5,6 +5,8 @@ import { MDBAccordion, MDBAccordionItem, MDBIcon } from "mdb-react-ui-kit";
 
 import star from "../assets/star.svg";
 
+const Fade = require("react-reveal/Fade");
+
 interface TabProps {
   propText: string;
 }
@@ -22,12 +24,18 @@ const AboutScreen = () => {
   return (
     <div className="about-screen" id="about">
       <div className="container">
-        <div className="additional-text">
-          <span className="mini-text">О налоговом мониторинге</span>
-          <figure className="line"></figure>
+        <Fade bottom delay={100}>
+          <div className="additional-text">
+            <span className="mini-text">О налоговом мониторинге</span>
+            <figure className="line"></figure>
+          </div>
+        </Fade>
+        <Fade delay={200}>
           <h2 className="heading">
             Что дает организациям переход на <span>налоговый мониторинг</span>
           </h2>
+        </Fade>
+        <Fade delay={300}>
           <div className="tabs">
             <Tab
               propText="Эффективность для налогоплательщиков налогового мониторинга отражается в динамике
@@ -40,7 +48,9 @@ const AboutScreen = () => {
               такого соглашения."
             ></Tab>
           </div>
-          <div className="accordions">
+        </Fade>
+        <div className="accordions">
+          <Fade delay={400}>
             <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
@@ -60,6 +70,8 @@ const AboutScreen = () => {
                 9 месяцев после окончания налогового периода.
               </MDBAccordionItem>
             </MDBAccordion>
+          </Fade>
+          <Fade delay={500}>
             <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
@@ -78,6 +90,8 @@ const AboutScreen = () => {
                 другая трактовка законодательства.
               </MDBAccordionItem>
             </MDBAccordion>
+          </Fade>
+          <Fade delay={600}>
             <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
@@ -92,6 +106,8 @@ const AboutScreen = () => {
                 конкретной хозяйственной ситуации.
               </MDBAccordionItem>
             </MDBAccordion>
+          </Fade>
+          <Fade delay={700}>
             <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
@@ -116,6 +132,8 @@ const AboutScreen = () => {
                 документов через интеграцию с АИС-Налог 3
               </MDBAccordionItem>
             </MDBAccordion>
+          </Fade>
+          <Fade delay={800}>
             <MDBAccordion initialActive={0}>
               <MDBAccordionItem
                 collapseId={1}
@@ -131,7 +149,7 @@ const AboutScreen = () => {
                 Снижение риска «человеческого фактора»
               </MDBAccordionItem>
             </MDBAccordion>
-          </div>
+          </Fade>
         </div>
       </div>
     </div>
