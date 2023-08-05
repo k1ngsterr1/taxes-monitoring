@@ -7,6 +7,7 @@ import RealisationScreen from "screens/RealisationScreen";
 import ResultsScreen from "screens/ResultsScreen";
 import RoadmapScreen from "screens/RoadmapScreen";
 import LastScreen from "screens/LastScreen";
+import Footer from "components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <ResultsScreen />
       <RoadmapScreen />
       <LastScreen />
+      <Footer />
     </div>
   );
 };
