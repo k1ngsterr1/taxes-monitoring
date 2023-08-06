@@ -50,7 +50,7 @@ $container: 86.45833333333333%
         .requirements-screen
             margin-top: clamp(50px,23.363999999999997vw,200px)
 
-            .container
+            .container-box
                 width: $container
                 height: auto
                 display: flex
@@ -146,3 +146,51 @@ $container: 86.45833333333333%
                     border-radius: 4px
                     margin-top: $m64mob
                     line-height: normal
+
+            .container-box-pc
+                display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+        body
+            width: 100%
+            height: auto
+
+            .requirements-screen
+                width: 100%
+                height: auto
+
+                .container-box
+                    display: none
+
+                .container-box-pc
+                    width: $container
+                    height: auto
+                    display: flex
+                    margin: auto
+                    flex-direction: column
+
+                    .heading
+                        width: 60%
+                        margin: auto
+                        font-size: $f36
+                        text-align: center
+
+                    .tab
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        margin-top: $m64
+
+                        .tab-text
+                            width: 60%
+                            color: $darkGray
+                            text-align: center
+                            margin-top: $m32
+                            font-family: Open Sans
+                            font-size: $f22
+                            font-style: normal
+                            font-weight: 400
+                            line-height: normal
