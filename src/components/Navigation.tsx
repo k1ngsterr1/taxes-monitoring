@@ -90,17 +90,50 @@ var styles = {
 
 const Navigation = () => {
   return (
-    <nav className="mob-nav">
-      <span className="logo">Logo</span>
-      <Menu right styles={styles}>
-        <Link to="main">Главная</Link>
-        <Link to="requirements">Критерии</Link>
-        <Link to="features">Преимущества</Link>
-        <Link to="realisation">Реализация</Link>
-        <Link to="results">Итоги</Link>
-        <Link to="roadmap">Дорожная карта</Link>
-        <Link to="last">Результаты</Link>
-      </Menu>
+    <nav className="nav">
+      <div className="mob-nav">
+        <span className="logo">Logo</span>
+        <Menu right styles={styles}>
+          <Link to="main">Главная</Link>
+          <Link to="requirements">Критерии</Link>
+          <Link to="features">Преимущества</Link>
+          <Link to="realisation">Реализация</Link>
+          <Link to="results">Итоги</Link>
+          <Link to="roadmap">Дорожная карта</Link>
+          <Link to="last">Результаты</Link>
+        </Menu>
+      </div>
+      <div className="pc-nav">
+        <div className="pc-nav-container">
+          <span className="logo">Logo</span>
+          <div className="links-container">
+            <div className="links">
+              <Link to="main" className="link">
+                Главная
+              </Link>
+              <Link to="requirements" className="link">
+                Критерии
+              </Link>
+              <Link to="features" className="link">
+                Преимущества
+              </Link>
+              <Link to="realisation" className="link">
+                Реализация
+              </Link>
+              <Link to="results" className="link">
+                Итоги
+              </Link>
+              <Link to="roadmap" className="link">
+                Дорожная карта
+              </Link>
+              <Link to="last" className="link results">
+                Результаты
+              </Link>
+            </div>
+            <button className="request-btn">Оставить заявку</button>
+          </div>
+        </div>
+      </div>
     </nav>
   );
 };

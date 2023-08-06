@@ -8,42 +8,42 @@
   width: 100%;
   height: auto;
 }
-* body .container {
+* body .container-box {
   width: 86.4583333333%;
   margin: auto;
   height: auto;
   margin-top: clamp(32px, 3.33312vw, 128px);
 }
-* body .container .main-content {
+* body .container-box .main-content {
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-* body .container .main-content .additional-text {
+* body .container-box .main-content .additional-text {
   display: flex;
   flex-direction: column;
 }
-* body .container .main-content .additional-text .mini-text {
+* body .container-box .main-content .additional-text .mini-text {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   font-family: "Raleway", sans-serif;
 }
-* body .container .main-content .additional-text .line {
+* body .container-box .main-content .additional-text .line {
   width: 100%;
   height: 1px;
   background-color: #007ACC;
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-* body .container .main-content .heading {
+* body .container-box .main-content .heading {
   text-align: center;
   margin: auto;
   font-size: clamp(16px, 7.47648vw, 64px);
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* body .container .main-content .paragraph {
+* body .container-box .main-content .paragraph {
   font-family: "Open Sans";
   font-size: clamp(8px, 3.73824vw, 32px);
   text-align: center;
@@ -52,12 +52,12 @@
   line-height: normal;
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-* body .container .main-content .illustration {
+* body .container-box .main-content .illustration {
   width: clamp(179.5px, 83.87676vw, 718px);
   height: clamp(95.5px, 44.62524vw, 382px);
   margin-top: clamp(32px, 3.33312vw, 128px);
 }
-* body .container .main-content .consult-button {
+* body .container-box .main-content .consult-button {
   width: clamp(145px, 67.7556vw, 580px);
   height: clamp(28px, 13.08384vw, 112px);
   border: none;
@@ -71,7 +71,7 @@
   line-height: normal;
   background-color: #007ACC;
 }
-* body .container .main-content .more-button {
+* body .container-box .main-content .more-button {
   width: clamp(145px, 67.7556vw, 580px);
   height: clamp(28px, 13.08384vw, 112px);
   border: 3px solid #007ACC;
@@ -85,6 +85,131 @@
   line-height: normal;
   background-color: transparent;
 }
-* body .container .main-content .arrow {
+* body .container-box .main-content .arrow {
   margin-top: clamp(16px, 7.47648vw, 64px);
+}
+* body .container-box .main-content-pc {
+  display: none;
+}
+* body .container-box .arrow {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .main-screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  * body .main-screen .container-box {
+    width: 86.4583333333%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: clamp(125px, 13.02vw, 500px);
+  }
+  * body .main-screen .container-box .main-content {
+    display: none;
+  }
+  * body .main-screen .container-box .main-content-pc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .additional-text {
+    display: flex;
+    align-items: center;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .additional-text .mini-text {
+    color: #007ACC;
+    font-family: Raleway;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .additional-text .line {
+    width: clamp(1.5px, 0.15624vw, 6px);
+    height: clamp(27px, 2.81232vw, 108px);
+    background-color: #007ACC;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .heading {
+    color: #333333;
+    font-family: Raleway;
+    font-size: clamp(24px, 2.49984vw, 96px);
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .paragraph {
+    width: 60%;
+    color: #333333;
+    font-family: Open Sans;
+    font-size: clamp(11px, 1.14576vw, 44px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons .main-button, * body .main-screen .container-box .main-content-pc .text-content .buttons .more-button {
+    width: clamp(145px, 15.1032vw, 580px);
+    height: clamp(28px, 2.91648vw, 112px);
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 6px;
+    border: none;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons .main-button {
+    background-color: #007ACC;
+    transition: 0.3s all;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons .main-button:hover {
+    background: #0069AF;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons .more-button {
+    border: 4px solid #007ACC;
+    background-color: transparent;
+    color: #007ACC;
+    margin-left: clamp(16px, 1.66656vw, 64px);
+    transition: 0.3s all;
+  }
+  * body .main-screen .container-box .main-content-pc .text-content .buttons .more-button:hover {
+    background-color: #007ACC;
+    color: #F1F1F1;
+  }
+  * body .main-screen .container-box .main-content-pc .illustration {
+    width: clamp(300px, 31.248vw, 1200px);
+    height: clamp(200px, 20.832vw, 800px);
+  }
+  * body .main-screen .arrow {
+    display: flex;
+    padding-top: clamp(64px, 6.66624vw, 256px);
+  }
 }/*# sourceMappingURL=main-styles.css.map */

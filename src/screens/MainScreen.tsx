@@ -12,8 +12,7 @@ const MainScreen = () => {
   return (
     <div className="main-screen" id="main">
       <Navigation />
-
-      <div className="container">
+      <div className="container-box">
         <main className="main-content">
           <Fade bottom>
             <div className="additional-text">
@@ -52,6 +51,29 @@ const MainScreen = () => {
             <img className="arrow" src={arrow} alt="arrow"></img>
           </Fade>
         </main>
+        <main className="main-content-pc">
+          <div className="text-content">
+            <div className="additional-text">
+              <figure className="line"></figure>
+              <p className="mini-text">Преимущества налогового мониторинга</p>
+            </div>
+            <h1 className="heading">
+              О налоговом <span>мониторинге</span>
+            </h1>
+            <p className="paragraph">
+              {" "}
+              <b>Налоговый мониторинг</b>– добровольная альтернативная форма
+              налогового контроля, которая заменяет стандартные выездные и
+              камеральные налоговые проверки.
+            </p>
+            <div className="buttons">
+              <button className="main-button">Получить консультацию</button>
+              <button className="more-button">Подробнее</button>
+            </div>
+          </div>
+          <img src={Illustration} alt="illustration" className="illustration" />
+        </main>
+        <img className="arrow" src={arrow} alt="arrow"></img>
       </div>
     </div>
   );

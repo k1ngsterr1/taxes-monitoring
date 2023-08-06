@@ -51,3 +51,84 @@ $container: 86.45833333333333%
             width: $container
             margin: auto
             margin-top: $m64mob
+
+        .pc-nav
+            display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+        .nav
+            width: 100%
+            height: auto
+
+            .mob-nav
+                display: none
+
+            .pc-nav
+                width: 100%
+                height: auto
+                z-index: 1000
+                position: fixed
+                display: flex
+                background-color: white
+                box-shadow: 0px 10px 55px 0px rgba(0, 0, 0, 0.03)
+
+                .pc-nav-container
+                    width: $container
+                    height: auto
+                    margin: auto
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    margin-top: clamp(22.5px,2.3436vw,90px)
+                    margin-bottom: clamp(22.5px,2.3436vw,90px)
+
+                    .logo
+                        color: $brightBlue
+                        font-family: "Raleway"
+                        font-size: clamp(14px,1.45824vw,56px)
+                        font-style: normal
+                        font-weight: 800
+                        line-height: normal
+
+                    .links-container
+                        display: flex
+                        align-items: center
+
+                        .links
+                            display: flex
+                            align-items: center
+                            margin-right: $m64
+
+                            .link
+                                color: $darkGray
+                                font-family: Raleway
+                                font-size: clamp(9px,0.93744vw,36px)
+                                font-style: normal
+                                font-weight: 600
+                                line-height: normal
+                                margin-right: $m32
+                                transition: 0.3s all
+                                &:hover
+                                    color: $brightBlue
+
+                            .results
+                                margin-right: 0px
+
+                        .request-btn
+                            width: clamp(100px,10.416vw,400px)
+                            height: clamp(22.5px,2.3436vw,90px)
+                            border: none
+                            border-radius: 6px
+                            background: $brightBlue
+                            color: #FFF
+                            font-family: "Raleway"
+                            font-size: clamp(9px,0.93744vw,36px)
+                            font-style: normal
+                            font-weight: 700
+                            line-height: normal
+                            transition: 0.3s all
+                            &:hover
+                                background: #0069AF
