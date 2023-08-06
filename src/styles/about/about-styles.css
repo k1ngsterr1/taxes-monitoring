@@ -90,6 +90,11 @@
     width: 100%;
     height: auto;
   }
+  * body .accordion-item {
+    width: 696px;
+    border: none;
+    border-bottom: 2px solid #007ACC;
+  }
   * body .about-screen {
     width: 100%;
     height: auto;
@@ -123,6 +128,65 @@
     background-color: #007ACC;
   }
   * body .about-screen .container-box-pc .heading {
+    width: 50%;
     text-align: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    font-family: Raleway;
+    font-size: clamp(18px, 1.87488vw, 72px);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140.4%;
+    text-transform: uppercase;
+  }
+  * body .about-screen .container-box-pc .tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  * body .about-screen .container-box-pc .tabs .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .about-screen .container-box-pc .tabs .tab .tab-text {
+    width: 80%;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: clamp(11px, 1.14576vw, 44px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  * body .about-screen .container-box-pc .accordions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .about-screen .container-box-pc .accordions .row-one {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  * body .about-screen .container-box-pc .accordions .row-two {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  * body .about-screen .container-box-pc .accordions .row-three {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
   }
 }/*# sourceMappingURL=about-styles.css.map */

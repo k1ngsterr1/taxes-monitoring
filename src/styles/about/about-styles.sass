@@ -131,6 +131,11 @@ $container: 86.45833333333333%
             width: 100%
             height: auto
 
+            .accordion-item
+                width: 696px
+                border: none
+                border-bottom: 2px solid $brightBlue
+
             .about-screen
                 width: 100%
                 height: auto
@@ -164,4 +169,63 @@ $container: 86.45833333333333%
                             background-color: $brightBlue
 
                     .heading
+                        width: 50%
                         text-align: center
+                        margin-top: $m64
+                        font-family: Raleway
+                        font-size: $f36
+                        font-style: normal
+                        font-weight: 800
+                        line-height: 140.4%
+                        text-transform: uppercase
+
+                    .tabs
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+
+                        .tab
+                            display: flex
+                            flex-direction: column
+                            align-items: center
+                            text-align: center
+                            margin-top: $m64
+
+                            .tab-text
+                                width: 80%
+                                margin-top: $m16
+                                color: #000
+                                text-align: center
+                                font-family: "Open Sans"
+                                font-size: $f22
+                                font-style: normal
+                                font-weight: 400
+                                line-height: normal
+
+                    .accordions
+                        width: 100%
+                        display: flex
+                        flex-direction: column
+                        margin: auto
+                        margin-top: $m64
+
+                        .row-one
+                            width: auto
+                            display: flex
+                            flex-direction: row
+                            align-items: center
+                            justify-content: space-between
+
+                        .row-two
+                            width: auto
+                            display: flex
+                            flex-direction: row
+                            align-items: center
+                            justify-content: space-between
+
+                        .row-three
+                            width: auto
+                            display: flex
+                            flex-direction: row
+                            align-items: center
+                            margin: auto
