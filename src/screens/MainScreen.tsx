@@ -53,27 +53,45 @@ const MainScreen = () => {
         </main>
         <main className="main-content-pc">
           <div className="text-content">
-            <div className="additional-text">
-              <figure className="line"></figure>
-              <p className="mini-text">Преимущества налогового мониторинга</p>
-            </div>
-            <h1 className="heading">
-              О налоговом <span>мониторинге</span>
-            </h1>
-            <p className="paragraph">
-              {" "}
-              <b>Налоговый мониторинг</b>– добровольная альтернативная форма
-              налогового контроля, которая заменяет стандартные выездные и
-              камеральные налоговые проверки.
-            </p>
+            <Fade bottom>
+              <div className="additional-text">
+                <figure className="line"></figure>
+                <p className="mini-text">Преимущества налогового мониторинга</p>
+              </div>
+            </Fade>
+            <Fade bottom delay={200}>
+              <h1 className="heading">
+                О налоговом <span>мониторинге</span>
+              </h1>
+            </Fade>
+            <Fade bottom delay={300}>
+              <p className="paragraph">
+                {" "}
+                <b>Налоговый мониторинг</b>– добровольная альтернативная форма
+                налогового контроля, которая заменяет стандартные выездные и
+                камеральные налоговые проверки.
+              </p>
+            </Fade>
             <div className="buttons">
-              <button className="main-button">Получить консультацию</button>
-              <button className="more-button">Подробнее</button>
+              <Fade bottom delay={400}>
+                <button className="main-button">Получить консультацию</button>
+              </Fade>
+              <Fade bottom delay={500}>
+                <button className="more-button">Подробнее</button>
+              </Fade>
             </div>
           </div>
-          <img src={Illustration} alt="illustration" className="illustration" />
+          <Fade bottom delay={600}>
+            <img
+              src={Illustration}
+              alt="illustration"
+              className="illustration"
+            />
+          </Fade>
         </main>
-        <img className="arrow" src={arrow} alt="arrow"></img>
+        <Fade bottom delay={700}>
+          <img className="arrow" src={arrow} alt="arrow"></img>
+        </Fade>
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const AboutScreen = () => {
 
   return (
     <div className="about-screen" id="about">
-      <div className="container">
+      <div className="container-box">
         <Fade bottom delay={100}>
           <div className="additional-text">
             <span className="mini-text">О налоговом мониторинге</span>
@@ -150,6 +150,27 @@ const AboutScreen = () => {
               </MDBAccordionItem>
             </MDBAccordion>
           </Fade>
+        </div>
+      </div>
+      <div className="container-box-pc">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">О налоговом мониторинге</p>
+        </div>
+        <h2 className="heading">
+          Что дает организациям переход на <span>налоговый мониторинг</span>
+        </h2>
+        <div className="tabs">
+          <Tab
+            propText="Эффективность для налогоплательщиков налогового мониторинга отражается в динамике
+            перехода на данную форму контроля крупнейший российских компаний"
+          ></Tab>
+          <Tab
+            propText="При этом для отдельных компаний переход на налоговой мониторинг стал обязательным. Так, с
+          2023 года введена обязанность компаний, заключивших Соглашение о защите и поддержке
+          капиталовложений, перейти на налоговый мониторинг в течение трех лет со дня заключения
+          такого соглашения."
+          ></Tab>
         </div>
       </div>
     </div>

@@ -211,5 +211,7 @@
   * body .main-screen .arrow {
     display: flex;
     padding-top: clamp(64px, 6.66624vw, 256px);
+    width: clamp(265px, 27.6024vw, 1060px);
+    height: clamp(80px, 8.3328vw, 320px);
   }
 }/*# sourceMappingURL=main-styles.css.map */
