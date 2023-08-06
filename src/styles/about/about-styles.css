@@ -94,4 +94,35 @@
     width: 100%;
     height: auto;
   }
+  * body .about-screen .container-box {
+    display: none;
+  }
+  * body .about-screen .container-box-pc {
+    width: 86.4583333333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  * body .about-screen .container-box-pc .additional-text {
+    display: flex;
+    align-items: center;
+  }
+  * body .about-screen .container-box-pc .additional-text .mini-text {
+    color: #007ACC;
+    font-family: Raleway;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .about-screen .container-box-pc .additional-text .line {
+    width: clamp(1.5px, 0.15624vw, 6px);
+    height: clamp(27px, 2.81232vw, 108px);
+    background-color: #007ACC;
+  }
+  * body .about-screen .container-box-pc .heading {
+    text-align: center;
+  }
 }/*# sourceMappingURL=about-styles.css.map */
