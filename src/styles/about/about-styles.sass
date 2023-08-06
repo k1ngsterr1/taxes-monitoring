@@ -132,9 +132,20 @@ $container: 86.45833333333333%
             height: auto
 
             .accordion-item
-                width: 696px
+                width: clamp(348px,36.24768vw,1392px)
                 border: none
                 border-bottom: 2px solid $brightBlue
+
+                .accordion-body
+                    font-size: clamp(10px,1.0416vw,40px)
+
+                .a-paragraph
+                    color: $brightBlue
+                    font-family: Open Sans
+                    font-size: clamp(10.5px,1.09368vw,42px) !important
+                    font-style: normal
+                    font-weight: 600
+                    line-height: normal
 
             .about-screen
                 width: 100%
@@ -215,6 +226,7 @@ $container: 86.45833333333333%
                             flex-direction: row
                             align-items: center
                             justify-content: space-between
+                            margin-top: $m64
 
                         .row-two
                             width: auto
@@ -222,6 +234,7 @@ $container: 86.45833333333333%
                             flex-direction: row
                             align-items: center
                             justify-content: space-between
+                            margin-top: $m128
 
                         .row-three
                             width: auto
@@ -229,3 +242,4 @@ $container: 86.45833333333333%
                             flex-direction: row
                             align-items: center
                             margin: auto
+                            margin-top: $m128

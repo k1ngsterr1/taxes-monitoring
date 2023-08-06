@@ -179,7 +179,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon fas icon="clock" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="clock" size="3x" /> &nbsp;
                     <p className="a-paragraph">
                       Сокращение проведения контрольных мероприятий
                     </p>
@@ -198,7 +198,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon fas icon="file-alt" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="file-alt" size="3x" /> &nbsp;
                     <p className="a-paragraph">Управление рисками</p>
                   </>
                 }
@@ -219,7 +219,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon fas icon="balance-scale" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="balance-scale" size="3x" /> &nbsp;
                     <p className="a-paragraph">Мотивированное мнение</p>
                   </>
                 }
@@ -233,7 +233,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon fas icon="cog" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="cog" size="3x" /> &nbsp;
                     <p className="a-paragraph">
                       Автоматизация взаимодействия с налоговым органом
                     </p>
@@ -260,7 +260,7 @@ const AboutScreen = () => {
                 collapseId={1}
                 headerTitle={
                   <>
-                    <MDBIcon fas icon="chart-line" size="xl" /> &nbsp;
+                    <MDBIcon fas icon="chart-line" size="3x" /> &nbsp;
                     <p className="a-paragraph">
                       Развитие системы внутреннего контроля
                     </p>
