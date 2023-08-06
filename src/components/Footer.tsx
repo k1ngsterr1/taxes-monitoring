@@ -9,11 +9,27 @@ const Footer = () => {
       <div className="footer-container">
         <p className="logo">Logo</p>
         <nav className="links">
-          <Link className="link">Главная</Link>
-          <Link className="link">Преимущества</Link>
-          <Link className="link">Дорожная карта</Link>
-          <Link className="link">Новости</Link>
-          <Link className="link">Статьи</Link>
+          <Link to="main" className="link">
+            Главная
+          </Link>
+          <Link to="requirements" className="link">
+            Критерии
+          </Link>
+          <Link to="features" className="link">
+            Преимущества
+          </Link>
+          <Link to="realisation" className="link">
+            Реализация
+          </Link>
+          <Link to="results" className="link">
+            Итоги
+          </Link>
+          <Link to="roadmap" className="link">
+            Дорожная карта
+          </Link>
+          <Link to="last" className="link">
+            Результаты
+          </Link>
         </nav>
         <button className="request">Оставить заявку</button>
         <figure className="line"></figure>
