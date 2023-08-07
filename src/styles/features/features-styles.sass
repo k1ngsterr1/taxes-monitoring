@@ -128,3 +128,67 @@ $container: 86.45833333333333%
                     line-height: normal
                     border: none
                     border-radius: 4px
+
+            .container-box-pc
+                display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+        body
+            width: 100%
+            height: auto
+
+            .features-screen
+                background: $brightBlue
+                background: url("../features/BackgroundEarth.png") center
+
+                .container
+                    display: none !important
+
+                .container-box-pc
+                    width: $container
+                    margin: auto
+                    display: flex !important
+                    flex-direction: column
+                    align-items: center
+
+                    .additional-text
+                        display: flex
+                        align-items: center
+                        margin-top: $m64
+
+                        .line
+                            width: clamp(1.5px,0.15624vw,6px)
+                            height: clamp(27px,2.81232vw,108px)
+                            background-color: $lightGray
+
+                        .mini-text
+                            color: $lightGray
+                            font-family: Raleway
+                            font-size: $f21
+                            font-style: normal
+                            font-weight: 600
+                            line-height: normal
+                            margin-left: $m16
+
+                    .heading
+                        width: 40%
+                        text-align: center
+                        color: $lightGray
+                        text-align: center
+                        font-family: Raleway
+                        font-size: $f36
+                        font-style: normal
+                        font-weight: 800
+                        line-height: 140.4%
+                        text-transform: uppercase
+                        margin-top: $m32
+
+                    .stars
+                        width: 100%
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        margin: auto

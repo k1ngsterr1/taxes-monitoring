@@ -84,6 +84,9 @@
 * body .about-screen .container-box .accordions .accordion-item {
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
+* body .about-screen .container-box-pc {
+  display: none;
+}
 
 @media screen and (min-width: 1200px) {
   * body {

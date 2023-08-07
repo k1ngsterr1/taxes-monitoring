@@ -95,32 +95,37 @@ $container: 86.45833333333333%
                     align-items: center
                     margin-top: $m64mob
 
-                    .number-container
-                        width: clamp(21px,9.81288vw,84px)
-                        height: clamp(21px,9.81288vw,84px)
-                        background-color: $brightBlue
-                        border-radius: 100px
-                        margin-top: $m32mob
+                    .box-heading-c
+                        display: flex
+                        flex-direction: column
+                        align-items: center
 
-                        .number
-                            color: #FFF
+                        .number-container
+                            width: clamp(21px,9.81288vw,84px)
+                            height: clamp(21px,9.81288vw,84px)
+                            background-color: $brightBlue
+                            border-radius: 100px
+                            margin-top: $m32mob
+
+                            .number
+                                color: #FFF
+                                text-align: center
+                                font-family: "Open Sans"
+                                margin-top: clamp(2px,0.93456vw,8px)
+                                font-size: clamp(12px,5.60736vw,48px)
+                                font-style: normal
+                                font-weight: 600
+                                line-height: normal
+
+                        .box-heading
+                            color: $darkGray
                             text-align: center
                             font-family: "Open Sans"
-                            margin-top: clamp(2px,0.93456vw,8px)
-                            font-size: clamp(12px,5.60736vw,48px)
+                            margin-top: $m8mob
+                            font-size: clamp(9px,4.20552vw,36px)
                             font-style: normal
                             font-weight: 600
                             line-height: normal
-
-                    .box-heading
-                        color: $darkGray
-                        text-align: center
-                        font-family: "Open Sans"
-                        margin-top: $m8mob
-                        font-size: clamp(9px,4.20552vw,36px)
-                        font-style: normal
-                        font-weight: 600
-                        line-height: normal
 
                     .box-text
                         width: 70%
@@ -161,6 +166,7 @@ $container: 86.45833333333333%
             .requirements-screen
                 width: 100%
                 height: auto
+                margin-top: clamp(128px,13.33248vw,512px)
 
                 .container-box
                     display: none
@@ -173,10 +179,11 @@ $container: 86.45833333333333%
                     flex-direction: column
 
                     .heading
-                        width: 60%
+                        width: 50%
                         margin: auto
                         font-size: $f36
                         text-align: center
+                        color: $darkGray
 
                     .tab
                         display: flex
@@ -194,3 +201,85 @@ $container: 86.45833333333333%
                             font-style: normal
                             font-weight: 400
                             line-height: normal
+
+                    .boxes
+                        width: 100%
+                        display: flex
+                        flex-direction: row
+                        justify-content: space-between
+                        align-items: center
+                        margin-top: $m64
+
+                        .box
+                            width: clamp(255px,26.5608vw,1020px)
+                            height: clamp(108.5px,11.30136vw,434px)
+                            border-radius: 10px
+                            background: #F1F1F1
+                            box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.10)
+
+                            .box-heading-c
+                                display: flex
+                                flex-direction: row
+                                align-items: center
+                                margin-left: $m16
+                                margin-top: $m16
+
+                                .number-container
+                                    width: clamp(25.5px,2.65608vw,102px)
+                                    height: clamp(25.5px,2.65608vw,102px)
+                                    display: flex
+                                    align-items: center
+                                    justify-content: center
+                                    background-color: $brightBlue
+                                    border-radius: 100px
+
+                                    .number
+                                        color: #FFF
+                                        text-align: center
+                                        font-family: Open Sans
+                                        font-size: $f25
+                                        font-style: normal
+                                        font-weight: 600
+                                        line-height: normal
+                                        margin-top: 8px
+
+                                .box-heading
+                                    color: $darkGray
+                                    text-align: center
+                                    font-family: Open Sans
+                                    font-size: clamp(12px,1.24992vw,48px)
+                                    font-style: normal
+                                    font-weight: 600
+                                    line-height: normal
+                                    margin-left: $m16
+
+                            .box-text
+                                width: 80%
+                                margin: auto
+                                text-align: left
+                                margin-left: $m16
+                                margin-top: $m32
+                                color: $darkGray
+                                font-family: Open Sans
+                                font-size: $f22
+                                font-style: normal
+                                font-weight: 400
+                                line-height: normal
+
+                    .request
+                        width: clamp(142.5px,14.8428vw,570px)
+                        height: clamp(28px,2.91648vw,112px)
+                        border-radius: 6px
+                        background: $brightBlue
+                        color: #FFF
+                        font-family: Raleway
+                        font-size: $f24
+                        border: none
+                        font-style: normal
+                        font-weight: 700
+                        line-height: normal
+                        margin-top: $m64 !important
+                        margin: auto
+                        transition: 0.3s all
+                        &:hover
+                            background: #0069AF

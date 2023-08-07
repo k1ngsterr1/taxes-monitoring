@@ -55,6 +55,23 @@ const FeaturesScreen = () => {
           <button className="request-btn">Оставить заявку</button>
         </Fade>
       </div>
+      <div className="container-box-pc">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">Наши преимущества</p>
+        </div>
+        <h2 className="heading">Преимущества решения Профэкспертиза</h2>
+        <div className="stars">
+          <Star propsText="Первый продукт на рынке при поддержке практиков – налоговых экспертов"></Star>
+          <Star propsText="Готовая методика оценки эффектов от перехода на налоговый мониторинг для бизнеса"></Star>
+          <Star propsText="Функционал не только для инспекций, но и для компании"></Star>
+          <Star
+            propsText="Продуктовый подход к ИТ-решению: поддержка решения и развитие сервисных функций в
+            рамках подписки(лицензии)"
+          ></Star>
+        </div>
+        <button className="request">Получить консультацию</button>
+      </div>
     </div>
   );
 };

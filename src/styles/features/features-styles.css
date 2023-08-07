@@ -89,4 +89,67 @@
   line-height: normal;
   border: none;
   border-radius: 4px;
+}
+* body .features-screen .container-box-pc {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .features-screen {
+    background: #007ACC;
+    background: url("../features/BackgroundEarth.png") center;
+  }
+  * body .features-screen .container {
+    display: none !important;
+  }
+  * body .features-screen .container-box-pc {
+    width: 86.4583333333%;
+    margin: auto;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  * body .features-screen .container-box-pc .additional-text {
+    display: flex;
+    align-items: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .features-screen .container-box-pc .additional-text .line {
+    width: clamp(1.5px, 0.15624vw, 6px);
+    height: clamp(27px, 2.81232vw, 108px);
+    background-color: #F1F1F1;
+  }
+  * body .features-screen .container-box-pc .additional-text .mini-text {
+    color: #F1F1F1;
+    font-family: Raleway;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .features-screen .container-box-pc .heading {
+    width: 40%;
+    text-align: center;
+    color: #F1F1F1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: clamp(18px, 1.87488vw, 72px);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140.4%;
+    text-transform: uppercase;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .features-screen .container-box-pc .stars {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
 }/*# sourceMappingURL=features-styles.css.map */
