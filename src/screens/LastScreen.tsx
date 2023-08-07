@@ -98,6 +98,15 @@ const LastScreen = () => {
           </Fade>
         </div>
       </div>
+      <div className="container-box-c">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">Результаты</p>
+        </div>
+        <h2 className="heading">
+          Результаты внедрения решения по <span>налоговому мониторингу</span>
+        </h2>
+      </div>
     </div>
   );
 };

@@ -7,7 +7,16 @@ import puzzle from "../assets/puzzleMap.svg";
 import stats from "../assets/statsMap.svg";
 import rocket from "../assets/rocketMap.svg";
 
+import searchPC from "../assets/searchMapPC.svg";
+import settingsPC from "../assets/settingsMapPC.svg";
+import coinsPC from "../assets/coinsMapPC.svg";
+import puzzlePC from "../assets/puzzleMapPC.svg";
+import statsPC from "../assets/statsMapPC.svg";
+import rocketPC from "../assets/rocketMapPC.svg";
+
 import "../styles/roadmap/roadmap-styles.css";
+
+import roadmap from "../assets/roadmap.svg";
 
 const Fade = require("react-reveal/Fade");
 
@@ -49,7 +58,7 @@ const RoadmapScreen = () => {
             <Step
               numberProp="01"
               textProp="Диагностика, перечень требуемых изменений"
-              imageProp={search}
+              imageProp={searchPC}
             ></Step>
           </Fade>
           <Fade bottom>
@@ -88,6 +97,15 @@ const RoadmapScreen = () => {
             ></Step>
           </Fade>
         </div>
+      </div>
+      <div className="container-box-c">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">Этапы работы</p>
+        </div>
+        <h2 className="heading">Дорожная карта</h2>
+
+        <img className="roadmap" src={roadmap}></img>
       </div>
     </div>
   );

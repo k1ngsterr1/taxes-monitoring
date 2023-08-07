@@ -151,3 +151,59 @@ $container: 86.45833333333333%
                         width: clamp(178.5px,83.40948vw,714px)
                         height: clamp(122.5px,57.2418vw,490px)
                         margin-top: $m64mob
+
+            .container-box-c
+                display: none
+
+@media screen and  (min-width: 1200px)
+
+    *
+
+        body
+            width: 100%
+            height: auto
+
+            .last-screen
+
+                .container
+                    display: none
+
+                .container-box-c
+                    width: $container
+                    height: auto
+                    display: flex
+                    flex-direction: column
+                    margin: auto
+                    align-items: center
+
+                    .additional-text
+                        display: flex
+                        align-items: center
+                        margin: auto
+
+                        .mini-text
+                            color: $brightBlue
+                            font-family: Raleway
+                            font-size: $f21
+                            font-style: normal
+                            font-weight: 600
+                            line-height: normal
+                            margin-left: $m16
+
+                        .line
+                            width: clamp(1.5px,0.15624vw,6px)
+                            height: clamp(27px,2.81232vw,108px)
+                            background-color: $brightBlue
+
+                    .heading
+                        width: 60%
+                        margin: auto
+                        color: $darkGray
+                        text-align: center
+                        font-family: Raleway
+                        font-size: $f36
+                        font-style: normal
+                        font-weight: 800
+                        line-height: 140.4%
+                        text-transform: uppercase
+                        margin-top: $m32
