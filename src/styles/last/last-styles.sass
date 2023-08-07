@@ -212,7 +212,34 @@ $container: 86.45833333333333%
                         margin-top: $m32
 
                     .screen-1
-                        width: 100%
                         height: auto
                         margin: auto
                         display: flex
+                        flex-direction: row
+                        justify-content: center
+                        margin-top: $m64
+
+                        .content
+                            display: flex
+                            align-items: center
+
+                            .illustration-one
+
+                            .text-container
+                                width: 40%
+                                display: flex
+                                flex-direction: column
+                                margin-left: $m64
+
+                                .star
+                                    width: clamp(17.5px,1.8228vw,70px)
+                                    height: clamp(17.5px,1.8228vw,70px)
+
+                                .text-tab
+                                    display: flex
+                                    align-items: center
+                                    margin-top: $m32
+
+                                    .paragraph-text
+                                        margin-left: $m16
+                                        margin-top: $m16
