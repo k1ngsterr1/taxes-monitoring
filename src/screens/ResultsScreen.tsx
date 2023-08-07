@@ -91,6 +91,38 @@ const ResultsScreen = () => {
           <StarTabBig propsText="Модели раскрытия отчетности с надстроенными контрольными соотношениями"></StarTabBig>
         </Fade>
       </div>
+      <div className="container-box-c">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">Итоги</p>
+        </div>
+        <h2 className="heading">
+          Что вы получите по <span>итогам проекта</span>
+        </h2>
+        <div className="row-one">
+          <StarTab propsText="Комплексное решение"></StarTab>
+          <StarTab propsText="Интеграцию с АИС Налог-3"></StarTab>
+          <StarTab propsText="Техническую поддержку решения"></StarTab>
+        </div>
+        <figure className="line-between"></figure>
+        <div className="row-two">
+          <StarTabMedium propsText="Решение может взаимодействовать с любыми учтёнными системами"></StarTabMedium>
+          <StarTabMedium propsText="Легко тиражируемое решение на другие компании группы"></StarTabMedium>
+          <StarTabMedium propsText="Комплект методологических, регламентных и иных документов"></StarTabMedium>
+        </div>
+        <figure className="line-between"></figure>
+        <div className="row-three">
+          <StarTabBig
+            propsText="Подсистему обработки запросов от налоговых инспекторов с отчетом о действиях
+            пользователей"
+          ></StarTabBig>
+          <StarTabBig
+            propsText="Эффективную ролевую модель, с минимальным количеством ролей и конфликтов в
+            решении"
+          ></StarTabBig>
+          <StarTabBig propsText="Модели раскрытия отчетности с надстроенными контрольными соотношениями"></StarTabBig>
+        </div>
+      </div>
     </div>
   );
 };

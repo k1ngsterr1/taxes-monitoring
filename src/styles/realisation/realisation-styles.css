@@ -160,4 +160,8 @@
     line-height: normal;
     margin-left: clamp(16px, 1.66656vw, 64px);
   }
+  * body .realisation-screen .container-box-c .content .illustration {
+    width: clamp(329.5px, 34.32072vw, 1318px);
+    height: clamp(224.5px, 23.38392vw, 898px);
+  }
 }/*# sourceMappingURL=realisation-styles.css.map */
