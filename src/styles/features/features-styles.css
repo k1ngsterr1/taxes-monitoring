@@ -168,4 +168,14 @@
     font-weight: 500;
     line-height: normal;
   }
+  * body .features-screen .container-box-pc .request {
+    width: clamp(145px, 15.1032vw, 580px);
+    height: clamp(28px, 2.91648vw, 112px);
+    color: #007ACC;
+    font-family: Raleway;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=features-styles.css.map */
