@@ -122,6 +122,11 @@
     width: 100%;
     height: auto;
   }
+  * body .last-screen {
+    width: 100%;
+    height: auto;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
   * body .last-screen .container {
     display: none;
   }
@@ -164,5 +169,11 @@
     line-height: 140.4%;
     text-transform: uppercase;
     margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .last-screen .container-box-c .screen-1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
   }
 }/*# sourceMappingURL=last-styles.css.map */

@@ -106,6 +106,37 @@ const LastScreen = () => {
         <h2 className="heading">
           Результаты внедрения решения по <span>налоговому мониторингу</span>
         </h2>
+        <div className="screen-1">
+          <img
+            src={illustrationOne}
+            alt="illustration-one"
+            className="illustration-one"
+          />
+          <div className="text-content">
+            <div className="text-container">
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph">
+                  Индикатор высокого уровня автоматизации учетных процессов и
+                  прозрачности бизнеса с налоговой точки зрения
+                </p>
+              </div>
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph">
+                  Уникальное на рынке РФ решение, встраиваемое в текущие ИС
+                  компании и не зависящее от внешнего поставщика ПО
+                </p>
+              </div>
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph">
+                  Структурированное хранение первичных документов и договоров
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
