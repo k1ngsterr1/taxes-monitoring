@@ -60,6 +60,27 @@ const RealisationScreen = () => {
           ></img>
         </Fade>
       </div>
+      <div className="container-box-c">
+        <div className="additional-text">
+          <figure className="line"></figure>
+          <p className="mini-text">Реализация</p>
+        </div>
+        <h2 className="heading">
+          Что вы получите в процессе <span>реализации проекта</span>
+        </h2>
+        <div className="content">
+          <div className="text-content">
+            <Star propsText="Экспертную команду с реальным опытом разработки и внедрения решения"></Star>
+            <Star
+              propsText="Первичную экспертизу методических документов и формирование детального ТЗ с
+            бизнесом"
+            ></Star>
+            <Star propsText="Обсуждение этапов внедрения, узких мест и ошибок"></Star>
+            <Star propsText="Фокус на требования контрольной среды и существующие бизнес-процессы компании"></Star>
+          </div>
+          <img src={illustration} alt="illustration" className="illustration" />
+        </div>
+      </div>
     </div>
   );
 };
