@@ -152,4 +152,20 @@
     align-items: center;
     margin: auto;
   }
+  * body .features-screen .container-box-pc .stars .star-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .features-screen .container-box-pc .stars .star-container .star-paragraph {
+    width: 60%;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=features-styles.css.map */
