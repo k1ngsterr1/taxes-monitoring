@@ -177,5 +177,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border: none;
+    border-radius: 6px;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
   }
 }/*# sourceMappingURL=features-styles.css.map */
