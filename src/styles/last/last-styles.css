@@ -180,7 +180,7 @@
     block-size: fit-content;
     flex-direction: row;
     justify-content: center;
-    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-top: clamp(64px, 6.66624vw, 256px);
   }
   * body .last-screen .container-box-c .screen-1 .content {
     width: -moz-fit-content !important;
