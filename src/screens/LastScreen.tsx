@@ -137,6 +137,33 @@ const LastScreen = () => {
             </div>
           </div>
         </div>
+        <div className="line"></div>
+        <div className="screen-2">
+          <div className="content">
+            <div className="text-containez">
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph-text">
+                  База для совершенствования зависимых и кросс-зависимых
+                  процессов и процедур в Группе
+                </p>
+              </div>
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph-text">
+                  Лидерские позиции среди крупнейших компаний по внедрению
+                  данного формата взаимодействия с налоговыми органами РФ
+                </p>
+              </div>
+              <div className="text-tab">
+                <img src={star} alt="star" className="star" />
+                <p className="paragraph-text">
+                  Консистентные, сопоставимые и неизменные учетные данные
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
