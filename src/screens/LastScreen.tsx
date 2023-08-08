@@ -113,7 +113,7 @@ const LastScreen = () => {
               alt="illustration-one"
               className="illustration-one"
             />
-            <div className="text-container">
+            <div className="text-containez">
               <div className="text-tab">
                 <img src={star} alt="star" className="star" />
                 <p className="paragraph-text">

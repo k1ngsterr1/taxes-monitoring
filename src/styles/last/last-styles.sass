@@ -212,21 +212,27 @@ $container: 86.45833333333333%
                         margin-top: $m32
 
                     .screen-1
+                        width: fit-content
                         height: auto
                         margin: auto
                         display: flex
+                        block-size: fit-content
                         flex-direction: row
                         justify-content: center
                         margin-top: $m64
 
                         .content
+                            width: fit-content !important
+                            block-size: fit-content
+                            margin: auto
                             display: flex
-                            align-items: center
 
                             .illustration-one
+                                width: clamp(314px,32.70624vw,1256px)
 
-                            .text-container
-                                width: 40%
+                            .text-containez
+                                width: clamp(368.5px,38.382960000000004vw,1474px)
+                                block-size: fit-content
                                 display: flex
                                 flex-direction: column
                                 margin-left: $m64
@@ -236,10 +242,20 @@ $container: 86.45833333333333%
                                     height: clamp(17.5px,1.8228vw,70px)
 
                                 .text-tab
+                                    width: clamp(331px,34.47696vw,1324px)
+                                    block-size: fit-content !important
                                     display: flex
                                     align-items: center
                                     margin-top: $m32
 
                                     .paragraph-text
+                                        width: fit-content
                                         margin-left: $m16
                                         margin-top: $m16
+                                        color: $darkGray
+                                        font-family: Open Sans
+                                        font-size: clamp(9.5px,0.9895200000000001vw,38px)
+                                        font-style: normal
+                                        font-weight: 400
+                                        line-height: normal
+                                        flex-shrink: 0 !important

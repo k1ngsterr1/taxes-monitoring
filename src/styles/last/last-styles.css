@@ -171,34 +171,59 @@
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
   * body .last-screen .container-box-c .screen-1 {
+    width: -moz-fit-content;
+    width: fit-content;
     height: auto;
     margin: auto;
     display: flex;
+    block-size: -moz-fit-content;
+    block-size: fit-content;
     flex-direction: row;
     justify-content: center;
     margin-top: clamp(32px, 3.33312vw, 128px);
   }
   * body .last-screen .container-box-c .screen-1 .content {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    block-size: -moz-fit-content;
+    block-size: fit-content;
+    margin: auto;
     display: flex;
-    align-items: center;
   }
-  * body .last-screen .container-box-c .screen-1 .content .text-container {
-    width: 40%;
+  * body .last-screen .container-box-c .screen-1 .content .illustration-one {
+    width: clamp(314px, 32.70624vw, 1256px);
+  }
+  * body .last-screen .container-box-c .screen-1 .content .text-containez {
+    width: clamp(368.5px, 38.38296vw, 1474px);
+    block-size: -moz-fit-content;
+    block-size: fit-content;
     display: flex;
     flex-direction: column;
     margin-left: clamp(32px, 3.33312vw, 128px);
   }
-  * body .last-screen .container-box-c .screen-1 .content .text-container .star {
+  * body .last-screen .container-box-c .screen-1 .content .text-containez .star {
     width: clamp(17.5px, 1.8228vw, 70px);
     height: clamp(17.5px, 1.8228vw, 70px);
   }
-  * body .last-screen .container-box-c .screen-1 .content .text-container .text-tab {
+  * body .last-screen .container-box-c .screen-1 .content .text-containez .text-tab {
+    width: clamp(331px, 34.47696vw, 1324px);
+    block-size: -moz-fit-content !important;
+    block-size: fit-content !important;
     display: flex;
     align-items: center;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  * body .last-screen .container-box-c .screen-1 .content .text-container .text-tab .paragraph-text {
+  * body .last-screen .container-box-c .screen-1 .content .text-containez .text-tab .paragraph-text {
+    width: -moz-fit-content;
+    width: fit-content;
     margin-left: clamp(8px, 0.83328vw, 32px);
     margin-top: clamp(8px, 0.83328vw, 32px);
+    color: #333333;
+    font-family: Open Sans;
+    font-size: clamp(9.5px, 0.98952vw, 38px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0 !important;
   }
 }/*# sourceMappingURL=last-styles.css.map */

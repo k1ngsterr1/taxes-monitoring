@@ -189,6 +189,7 @@
   * body .main-screen .container-box .main-content-pc .text-content .buttons .main-button {
     background-color: #007ACC;
     transition: 0.3s all;
+    cursor: pointer;
   }
   * body .main-screen .container-box .main-content-pc .text-content .buttons .main-button:hover {
     background: #0069AF;
