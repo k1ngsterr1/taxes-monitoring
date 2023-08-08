@@ -50,7 +50,7 @@ $container: 86.45833333333333%
         .a-paragraph
             margin-top: clamp(7px,3.2709599999999996vw,28px)
             margin-left: $m8mob
-            font-size: clamp(7.5px,3.5046vw,30px) !important
+            font-size: clamp(7.5px,3.5046vw,30px)
             text-align: left
 
         .about-screen
@@ -125,6 +125,27 @@ $container: 86.45833333333333%
 
             .container-box-pc
                 display: none
+
+@media screen and (min-width: 600px) and (max-width: 1024px)
+
+    *
+        margin: 0
+        padding: 0
+        box-sizing: border-box
+
+        body
+            width: 100%
+            height: auto
+
+            .a-paragraph
+                margin-top: clamp(7px,3.2709599999999996vw,28px)
+                margin-left: $m8mob
+                text-align: left
+
+            .additional-text
+
+                .mini-text
+                    font-size: clamp(16px,3.5995500562429696vw,64px) !important
 
 @media screen and  (min-width: 1200px)
 

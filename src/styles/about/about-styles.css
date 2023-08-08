@@ -11,7 +11,7 @@
 * body .a-paragraph {
   margin-top: clamp(7px, 3.27096vw, 28px);
   margin-left: clamp(4px, 1.86912vw, 16px);
-  font-size: clamp(7.5px, 3.5046vw, 30px) !important;
+  font-size: clamp(7.5px, 3.5046vw, 30px);
   text-align: left;
 }
 * body .about-screen {
@@ -88,6 +88,25 @@
   display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .a-paragraph {
+    margin-top: clamp(7px, 3.27096vw, 28px);
+    margin-left: clamp(4px, 1.86912vw, 16px);
+    text-align: left;
+  }
+  * body .additional-text .mini-text {
+    font-size: clamp(16px, 3.5995500562vw, 64px) !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   * body {
     width: 100%;

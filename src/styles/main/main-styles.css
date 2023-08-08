@@ -79,6 +79,9 @@
   margin-top: clamp(16px, 7.47648vw, 64px);
   color: #007ACC;
   font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
   font-weight: 700;
@@ -102,7 +105,7 @@
   }
   * body .main-screen {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
@@ -113,7 +116,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
+    margin-top: clamp(64px, 14.398200225vw, 256px);
+  }
+  * body .main-screen .container-box .additional-text .mini-text {
+    font-size: clamp(16px, 3.5995500562vw, 64px) !important;
+  }
+  * body .main-screen .container-box .heading {
+    margin-top: clamp(32px, 7.1991001125vw, 128px);
+  }
+  * body .main-screen .container-box .illustration {
+    margin-top: clamp(45px, 10.1237345332vw, 180px);
   }
 }
 @media screen and (min-width: 1200px) {

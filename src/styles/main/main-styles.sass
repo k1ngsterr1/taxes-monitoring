@@ -118,6 +118,9 @@ $container: 86.45833333333333%
                     margin-top: $m32mob
                     color: $brightBlue
                     font-family: Raleway
+                    display: flex
+                    justify-content: center
+                    align-items: center
                     font-size: $m16mob
                     font-style: normal
                     font-weight: 700
@@ -143,7 +146,7 @@ $container: 86.45833333333333%
 
             .main-screen
                 width: 100%
-                height: 100vh
+                height: auto
                 display: flex
                 flex-direction: column
 
@@ -154,7 +157,18 @@ $container: 86.45833333333333%
                     display: flex
                     flex-direction: column
                     align-items: center
-                    border: 2px solid red
+                    margin-top: clamp( 64px,14.398200224971879vw,256px)
+
+                    .additional-text
+
+                        .mini-text
+                            font-size: clamp(16px,3.5995500562429696vw,64px) !important
+
+                    .heading
+                        margin-top: clamp(32px,7.199100112485939vw,128px)
+
+                    .illustration
+                        margin-top: clamp(45px,10.123734533183352vw,180px)
 
 @media screen and  (min-width: 1200px)
 

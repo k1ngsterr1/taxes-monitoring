@@ -47,7 +47,9 @@ const MainScreen = () => {
             <button className="consult-button">Получить консультацию</button>
           </Fade>
           <Fade bottom delay={600}>
-            <button className="more-button">Подробнее</button>
+            <Link className="more-button" to="about">
+              Подробнее
+            </Link>
           </Fade>
           <Fade bottom delay={700}>
             <img className="arrow" src={arrow} alt="arrow"></img>
