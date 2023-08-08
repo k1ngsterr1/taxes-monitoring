@@ -103,6 +103,9 @@
     margin-left: clamp(4px, 1.86912vw, 16px);
     text-align: left;
   }
+  * body .accordion-body {
+    font-size: clamp(13.5px, 3.03712036vw, 54px) !important;
+  }
   * body .additional-text .mini-text {
     font-size: clamp(16px, 3.5995500562vw, 64px) !important;
   }
