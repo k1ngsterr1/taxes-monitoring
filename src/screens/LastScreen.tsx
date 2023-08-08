@@ -162,6 +162,11 @@ const LastScreen = () => {
                 </p>
               </div>
             </div>
+            <img
+              src={illustrationTwo}
+              alt="illustration-two"
+              className="illustration-two"
+            />
           </div>
         </div>
       </div>

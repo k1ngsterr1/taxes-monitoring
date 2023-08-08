@@ -267,17 +267,49 @@ $container: 86.45833333333333%
                         margin-top: $m64
 
                     .screen-2
-                        width: fit-content
+                        width: 85%
                         height: auto
                         margin: auto
                         display: flex
                         block-size: fit-content
                         flex-direction: row
-                        justify-content: center
+                        justify-content: space-between
                         margin-top: $m128
 
                         .content
-                            width: fit-content !important
-                            block-size: fit-content
+                            width: 100%
+                            // block-size: fit-content
                             margin: auto
                             display: flex
+                            justify-content: space-between
+
+                            .text-containez
+                                display: flex
+                                flex-direction: column
+                                margin-right: $m64
+
+                                .text-tab
+                                    width: clamp(295px,30.7272vw,1180px)
+                                    display: flex
+
+                                    align-items: center
+                                    margin-top: $m32
+
+                                    .star
+                                        width: clamp(17.5px,1.8228vw,70px)
+                                        height: clamp(17.5px,1.8228vw,70px)
+
+                                    .paragraph-text
+                                        width: fit-content
+                                        margin-left: $m16
+                                        margin-top: $m16
+                                        color: $darkGray
+                                        font-family: Open Sans
+                                        font-size: clamp(9.5px,0.9895200000000001vw,38px)
+                                        font-style: normal
+                                        font-weight: 400
+                                        line-height: normal
+                                        flex-shrink: 0 !important
+
+                            .illustration-two
+                                width: clamp(314px,32.70624vw,1256px)

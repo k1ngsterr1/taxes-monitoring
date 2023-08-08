@@ -233,23 +233,51 @@
     margin-top: clamp(32px, 3.33312vw, 128px);
   }
   * body .last-screen .container-box-c .screen-2 {
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 85%;
     height: auto;
     margin: auto;
     display: flex;
     block-size: -moz-fit-content;
     block-size: fit-content;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: clamp(64px, 6.66624vw, 256px);
   }
   * body .last-screen .container-box-c .screen-2 .content {
-    width: -moz-fit-content !important;
-    width: fit-content !important;
-    block-size: -moz-fit-content;
-    block-size: fit-content;
+    width: 100%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
+  }
+  * body .last-screen .container-box-c .screen-2 .content .text-containez {
+    display: flex;
+    flex-direction: column;
+    margin-right: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .last-screen .container-box-c .screen-2 .content .text-containez .text-tab {
+    width: clamp(295px, 30.7272vw, 1180px);
+    display: flex;
+    align-items: center;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .last-screen .container-box-c .screen-2 .content .text-containez .text-tab .star {
+    width: clamp(17.5px, 1.8228vw, 70px);
+    height: clamp(17.5px, 1.8228vw, 70px);
+  }
+  * body .last-screen .container-box-c .screen-2 .content .text-containez .text-tab .paragraph-text {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    color: #333333;
+    font-family: Open Sans;
+    font-size: clamp(9.5px, 0.98952vw, 38px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0 !important;
+  }
+  * body .last-screen .container-box-c .screen-2 .content .illustration-two {
+    width: clamp(314px, 32.70624vw, 1256px);
   }
 }/*# sourceMappingURL=last-styles.css.map */
