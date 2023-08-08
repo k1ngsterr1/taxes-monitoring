@@ -17,6 +17,53 @@
   display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .bm-burger-bars {
+    background: #032727 !important;
+  }
+  * body .bm-menu-wrap {
+    width: clamp(300px, 67.4915635546vw, 1200px) !important;
+  }
+  * body .bm-item-list {
+    font-size: clamp(21px, 4.7244094488vw, 84px) !important;
+  }
+  * body .bm-item {
+    margin-right: clamp(20px, 4.4994375703vw, 80px);
+  }
+  * body .bm-cross-button {
+    width: clamp(46px, 10.3487064117vw, 184px) !important;
+    height: clamp(46px, 10.3487064117vw, 184px) !important;
+    display: flex !important;
+    left: clamp(230px, 51.7435320585vw, 920px) !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  * body .bm-cross {
+    width: 4px !important;
+    height: 60px !important;
+    margin-left: -30px !important;
+  }
+  * body .pc-nav {
+    display: none;
+  }
+  * body .mob-nav {
+    width: 86.4583333333%;
+    margin: auto;
+    margin-top: clamp(32px, 7.1991001125vw, 128px);
+  }
+  * body .mob-nav .logo {
+    font-size: clamp(21px, 4.7244094488vw, 84px);
+  }
+}
 @media screen and (min-width: 1200px) {
   * .nav {
     width: 100%;
