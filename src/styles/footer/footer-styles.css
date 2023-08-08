@@ -72,6 +72,16 @@
   display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .request {
+    width: clamp(225px, 50.6186726659vw, 900px) !important;
+    font-size: clamp(19.5px, 4.386951631vw, 78px) !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   * body {
     width: 100%;

@@ -58,7 +58,7 @@ const RoadmapScreen = () => {
             <Step
               numberProp="01"
               textProp="Диагностика, перечень требуемых изменений"
-              imageProp={searchPC}
+              imageProp={search}
             ></Step>
           </Fade>
           <Fade bottom>
