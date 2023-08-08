@@ -56,21 +56,29 @@ const FeaturesScreen = () => {
         </Fade>
       </div>
       <div className="container-box-pc">
-        <div className="additional-text">
-          <figure className="line"></figure>
-          <p className="mini-text">Наши преимущества</p>
-        </div>
-        <h2 className="heading">Преимущества решения Профэкспертиза</h2>
-        <div className="stars">
-          <Star propsText="Первый продукт на рынке при поддержке практиков – налоговых экспертов"></Star>
-          <Star propsText="Готовая методика оценки эффектов от перехода на налоговый мониторинг для бизнеса"></Star>
-          <Star propsText="Функционал не только для инспекций, но и для компании"></Star>
-          <Star
-            propsText="Продуктовый подход к ИТ-решению: поддержка решения и развитие сервисных функций в
+        <Fade bottom delay={100}>
+          <div className="additional-text">
+            <figure className="line"></figure>
+            <p className="mini-text">Наши преимущества</p>
+          </div>
+        </Fade>
+        <Fade bottom delay={200}>
+          <h2 className="heading">Преимущества решения Профэкспертиза</h2>
+        </Fade>
+        <Fade bottom delay={300}>
+          <div className="stars">
+            <Star propsText="Первый продукт на рынке при поддержке практиков – налоговых экспертов"></Star>
+            <Star propsText="Готовая методика оценки эффектов от перехода на налоговый мониторинг для бизнеса"></Star>
+            <Star propsText="Функционал не только для инспекций, но и для компании"></Star>
+            <Star
+              propsText="Продуктовый подход к ИТ-решению: поддержка решения и развитие сервисных функций в
             рамках подписки(лицензии)"
-          ></Star>
-        </div>
-        <button className="request">Получить консультацию</button>
+            ></Star>
+          </div>
+        </Fade>
+        <Fade bottom delay={400}>
+          <button className="request">Получить консультацию</button>
+        </Fade>
       </div>
     </div>
   );

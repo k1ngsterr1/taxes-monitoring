@@ -92,35 +92,59 @@ const ResultsScreen = () => {
         </Fade>
       </div>
       <div className="container-box-c">
-        <div className="additional-text">
-          <figure className="line"></figure>
-          <p className="mini-text">Итоги</p>
-        </div>
-        <h2 className="heading">
-          Что вы получите по <span>итогам проекта</span>
-        </h2>
+        <Fade bottom delay={100}>
+          <div className="additional-text">
+            <figure className="line"></figure>
+            <p className="mini-text">Итоги</p>
+          </div>
+        </Fade>
+        <Fade bottom delay={200}>
+          <h2 className="heading">
+            Что вы получите по <span>итогам проекта</span>
+          </h2>
+        </Fade>
         <div className="row-one">
-          <StarTab propsText="Комплексное решение"></StarTab>
-          <StarTab propsText="Интеграцию с АИС Налог-3"></StarTab>
-          <StarTab propsText="Техническую поддержку решения"></StarTab>
+          <Fade bottom delay={300}>
+            <StarTab propsText="Комплексное решение"></StarTab>
+          </Fade>
+          <Fade bottom delay={400}>
+            <StarTab propsText="Интеграцию с АИС Налог-3"></StarTab>
+          </Fade>
+          <Fade bottom delay={500}>
+            <StarTab propsText="Техническую поддержку решения"></StarTab>
+          </Fade>
         </div>
         <figure className="line-between"></figure>
         <div className="row-two">
-          <StarTabMedium propsText="Решение может взаимодействовать с любыми учтёнными системами"></StarTabMedium>
-          <StarTabMedium propsText="Легко тиражируемое решение на другие компании группы"></StarTabMedium>
-          <StarTabMedium propsText="Комплект методологических, регламентных и иных документов"></StarTabMedium>
+          <Fade bottom delay={600}>
+            <StarTabMedium propsText="Решение может взаимодействовать с любыми учтёнными системами"></StarTabMedium>
+          </Fade>
+          <Fade bottom delay={700}>
+            <StarTabMedium propsText="Легко тиражируемое решение на другие компании группы"></StarTabMedium>
+          </Fade>
+          <Fade bottom delay={800}>
+            <StarTabMedium propsText="Комплект методологических, регламентных и иных документов"></StarTabMedium>
+          </Fade>
         </div>
-        <figure className="line-between"></figure>
+        <Fade bottom delay={900}>
+          <figure className="line-between"></figure>
+        </Fade>
         <div className="row-three">
-          <StarTabBig
-            propsText="Подсистему обработки запросов от налоговых инспекторов с отчетом о действиях
+          <Fade bottom delay={1000}>
+            <StarTabBig
+              propsText="Подсистему обработки запросов от налоговых инспекторов с отчетом о действиях
             пользователей"
-          ></StarTabBig>
-          <StarTabBig
-            propsText="Эффективную ролевую модель, с минимальным количеством ролей и конфликтов в
+            ></StarTabBig>
+          </Fade>
+          <Fade bottom delay={1100}>
+            <StarTabBig
+              propsText="Эффективную ролевую модель, с минимальным количеством ролей и конфликтов в
             решении"
-          ></StarTabBig>
-          <StarTabBig propsText="Модели раскрытия отчетности с надстроенными контрольными соотношениями"></StarTabBig>
+            ></StarTabBig>
+          </Fade>
+          <Fade bottom delay={1200}>
+            <StarTabBig propsText="Модели раскрытия отчетности с надстроенными контрольными соотношениями"></StarTabBig>
+          </Fade>
         </div>
       </div>
     </div>

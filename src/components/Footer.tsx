@@ -35,6 +35,33 @@ const Footer = () => {
         <figure className="line"></figure>
         <p className="rights">All rights reserved</p>
       </div>
+      <div className="footer-pc">
+        <div className="links-container">
+          <span className="white">Logo</span>
+          <nav className="links">
+            <div className="links-cont">
+              <Link className="link" to="main">
+                Главная
+              </Link>
+              <Link className="link" to="features">
+                Преимущества
+              </Link>
+              <Link className="link" to="roadmap">
+                Дорожная карта
+              </Link>
+              <Link className="link" to="main">
+                Новости
+              </Link>
+              <Link className="link" to="main">
+                Статьи
+              </Link>
+            </div>
+            <button className="request-button">Оставить заявку</button>
+          </nav>
+        </div>
+        <figure className="line"></figure>
+        <p className="rights">All rights reserved</p>
+      </div>
     </footer>
   );
 };

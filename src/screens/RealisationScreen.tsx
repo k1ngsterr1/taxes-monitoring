@@ -61,23 +61,36 @@ const RealisationScreen = () => {
         </Fade>
       </div>
       <div className="container-box-c">
-        <div className="additional-text">
-          <figure className="line"></figure>
-          <p className="mini-text">Реализация</p>
-        </div>
-        <h2 className="heading">
-          Что вы получите в процессе <span>реализации проекта</span>
-        </h2>
+        <Fade bottom delay={100}>
+          <div className="additional-text">
+            <figure className="line"></figure>
+            <p className="mini-text">Реализация</p>
+          </div>
+        </Fade>
+        <Fade bottom delay={200}>
+          <h2 className="heading">
+            Что вы получите в процессе <span>реализации проекта</span>
+          </h2>
+        </Fade>
         <div className="content">
           <div className="text-content">
-            <Star propsText="Экспертную команду с реальным опытом разработки и внедрения решения"></Star>
-            <Star
-              propsText="Первичную экспертизу методических документов и формирование детального ТЗ с
+            <Fade bottom delay={300}>
+              <Star propsText="Экспертную команду с реальным опытом разработки и внедрения решения"></Star>
+            </Fade>
+            <Fade bottom delay={400}>
+              <Star
+                propsText="Первичную экспертизу методических документов и формирование детального ТЗ с
             бизнесом"
-            ></Star>
-            <Star propsText="Обсуждение этапов внедрения, узких мест и ошибок"></Star>
-            <Star propsText="Фокус на требования контрольной среды и существующие бизнес-процессы компании"></Star>
+              ></Star>
+            </Fade>
+            <Fade bottom delay={500}>
+              <Star propsText="Обсуждение этапов внедрения, узких мест и ошибок"></Star>
+            </Fade>
+            <Fade bottom delay={600}>
+              <Star propsText="Фокус на требования контрольной среды и существующие бизнес-процессы компании"></Star>
+            </Fade>
           </div>
+          <Fade bottom delay={700}></Fade>
           <img src={illustration} alt="illustration" className="illustration" />
         </div>
       </div>

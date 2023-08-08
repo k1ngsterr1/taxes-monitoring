@@ -3,6 +3,8 @@ import Navigation from "../components/Navigation";
 
 import "../styles/main/main-styles.css";
 
+import { Link } from "react-scroll";
+
 import Illustration from "../assets/IllustrationMain.svg";
 import arrow from "../assets/arrow.svg";
 
@@ -77,7 +79,9 @@ const MainScreen = () => {
                 <button className="main-button">Получить консультацию</button>
               </Fade>
               <Fade bottom delay={500}>
-                <button className="more-button">Подробнее</button>
+                <Link className="more-button" to="about">
+                  Подробнее
+                </Link>
               </Fade>
             </div>
           </div>

@@ -99,13 +99,18 @@ const RoadmapScreen = () => {
         </div>
       </div>
       <div className="container-box-c">
-        <div className="additional-text">
-          <figure className="line"></figure>
-          <p className="mini-text">Этапы работы</p>
-        </div>
-        <h2 className="heading">Дорожная карта</h2>
-
-        <img className="roadmap" src={roadmap}></img>
+        <Fade bottom delay={100}>
+          <div className="additional-text">
+            <figure className="line"></figure>
+            <p className="mini-text">Этапы работы</p>
+          </div>
+        </Fade>
+        <Fade bottom delay={200}>
+          <h2 className="heading">Дорожная карта</h2>
+        </Fade>
+        <Fade bottom delay={300}>
+          <img className="roadmap" src={roadmap}></img>
+        </Fade>
       </div>
     </div>
   );

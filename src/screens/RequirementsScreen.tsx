@@ -76,37 +76,45 @@ const RequirementsScreen = () => {
         </Fade>
       </div>
       <div className="container-box-pc">
-        <h2 className="heading">
-          Критерии для вступления в <span>налоговый мониторинг</span>
-        </h2>
-        <div className="tab">
-          <img src={star} alt="star" className="star" />
-          <p className="tab-text">
-            На этапе внедрения налогового мониторинга в России перейти на
-            налоговый мониторинг могли только самые крупные компании. Постепенно
-            критерии для получения права вхождения в налоговый мониторинг
-            смягчаются, и сейчас компания должна отвечать одновременно следующим
-            требованиям:
-          </p>
-        </div>
-        <div className="boxes">
-          <Box
-            propNumber="1"
-            propHeading="Критерий"
-            propText="<span><b>100 млн рублей</b></span> - общая сумма налогов за год"
-          ></Box>
-          <Box
-            propNumber="2"
-            propHeading="Критерий"
-            propText="<span><b>1 млрд рублей</b></span> - сумма полученных доходов организацией"
-          ></Box>
-          <Box
-            propNumber="3"
-            propHeading="Критерий"
-            propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
-          ></Box>
-        </div>
-        <button className="request">Оставить заявку</button>
+        <Fade bottom delay={100}>
+          <h2 className="heading">
+            Критерии для вступления в <span>налоговый мониторинг</span>
+          </h2>
+        </Fade>
+        <Fade bottom delay={200}>
+          <div className="tab">
+            <img src={star} alt="star" className="star" />
+            <p className="tab-text">
+              На этапе внедрения налогового мониторинга в России перейти на
+              налоговый мониторинг могли только самые крупные компании.
+              Постепенно критерии для получения права вхождения в налоговый
+              мониторинг смягчаются, и сейчас компания должна отвечать
+              одновременно следующим требованиям:
+            </p>
+          </div>
+        </Fade>
+        <Fade bottom delay={300}>
+          <div className="boxes">
+            <Box
+              propNumber="1"
+              propHeading="Критерий"
+              propText="<span><b>100 млн рублей</b></span> - общая сумма налогов за год"
+            ></Box>
+            <Box
+              propNumber="2"
+              propHeading="Критерий"
+              propText="<span><b>1 млрд рублей</b></span> - сумма полученных доходов организацией"
+            ></Box>
+            <Box
+              propNumber="3"
+              propHeading="Критерий"
+              propText="<span><b>1 млрд рублей</b></span> - совокупная стоимость активов."
+            ></Box>
+          </div>
+        </Fade>
+        <Fade bottom delay={400}>
+          <button className="request">Оставить заявку</button>
+        </Fade>
       </div>
     </div>
   );

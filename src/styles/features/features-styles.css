@@ -165,6 +165,7 @@
     font-family: Open Sans;
     font-size: clamp(10.5px, 1.09368vw, 42px);
     font-style: normal;
+    margin-top: clamp(8px, 0.83328vw, 32px);
     font-weight: 500;
     line-height: normal;
   }
@@ -181,5 +182,9 @@
     border-radius: 6px;
     margin-top: clamp(32px, 3.33312vw, 128px);
     margin-bottom: clamp(32px, 3.33312vw, 128px);
+    transition: 0.3s all;
+  }
+  * body .features-screen .container-box-pc .request:hover {
+    background-color: #E1E1E1;
   }
 }/*# sourceMappingURL=features-styles.css.map */

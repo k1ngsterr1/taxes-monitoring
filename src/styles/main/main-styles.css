@@ -199,6 +199,9 @@
     background-color: transparent;
     color: #007ACC;
     margin-left: clamp(16px, 1.66656vw, 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: 0.3s all;
   }
   * body .main-screen .container-box .main-content-pc .text-content .buttons .more-button:hover {

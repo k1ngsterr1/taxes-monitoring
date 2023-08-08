@@ -108,65 +108,83 @@ const LastScreen = () => {
         </h2>
         <div className="screen-1">
           <div className="content">
-            <img
-              src={illustrationOne}
-              alt="illustration-one"
-              className="illustration-one"
-            />
+            <Fade bottom delay={100}>
+              <img
+                src={illustrationOne}
+                alt="illustration-one"
+                className="illustration-one"
+              />
+            </Fade>
             <div className="text-containez">
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  Индикатор высокого уровня автоматизации учетных процессов и
-                  прозрачности бизнеса с налоговой точки зрения
-                </p>
-              </div>
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  Уникальное на рынке РФ решение, встраиваемое в текущие ИС
-                  компании и не зависящее от внешнего поставщика ПО
-                </p>
-              </div>
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  Структурированное хранение первичных документов и договоров
-                </p>
-              </div>
+              <Fade bottom delay={200}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    Индикатор высокого уровня автоматизации учетных процессов и
+                    прозрачности бизнеса с налоговой точки зрения
+                  </p>
+                </div>
+              </Fade>
+              <Fade bottom delay={300}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    Уникальное на рынке РФ решение, встраиваемое в текущие ИС
+                    компании и не зависящее от внешнего поставщика ПО
+                  </p>
+                </div>
+              </Fade>
+              <Fade bottom delay={400}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    Структурированное хранение первичных документов и договоров
+                  </p>
+                </div>
+              </Fade>
             </div>
           </div>
         </div>
-        <div className="line"></div>
+        <Fade bottom delay={500}>
+          <div className="line-2"></div>
+        </Fade>
         <div className="screen-2">
           <div className="content">
             <div className="text-containez">
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  База для совершенствования зависимых и кросс-зависимых
-                  процессов и процедур в Группе
-                </p>
-              </div>
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  Лидерские позиции среди крупнейших компаний по внедрению
-                  данного формата взаимодействия с налоговыми органами РФ
-                </p>
-              </div>
-              <div className="text-tab">
-                <img src={star} alt="star" className="star" />
-                <p className="paragraph-text">
-                  Консистентные, сопоставимые и неизменные учетные данные
-                </p>
-              </div>
+              <Fade bottom delay={600}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    База для совершенствования зависимых и кросс-зависимых
+                    процессов и процедур в Группе
+                  </p>
+                </div>
+              </Fade>
+              <Fade bottom delay={700}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    Лидерские позиции среди крупнейших компаний по внедрению
+                    данного формата взаимодействия с налоговыми органами РФ
+                  </p>
+                </div>
+              </Fade>
+              <Fade bottom delay={800}>
+                <div className="text-tab">
+                  <img src={star} alt="star" className="star" />
+                  <p className="paragraph-text">
+                    Консистентные, сопоставимые и неизменные учетные данные
+                  </p>
+                </div>
+              </Fade>
             </div>
-            <img
-              src={illustrationTwo}
-              alt="illustration-two"
-              className="illustration-two"
-            />
+            <Fade bottom delay={900}>
+              <img
+                src={illustrationTwo}
+                alt="illustration-two"
+                className="illustration-two"
+              />
+            </Fade>
           </div>
         </div>
       </div>

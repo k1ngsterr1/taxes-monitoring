@@ -111,6 +111,9 @@ const Navigation = () => {
               <Link to="main" className="link">
                 Главная
               </Link>
+              <Link to="about" className="link">
+                О нас
+              </Link>
               <Link to="requirements" className="link">
                 Критерии
               </Link>
