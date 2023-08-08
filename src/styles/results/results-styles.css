@@ -111,6 +111,15 @@
   display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .mini-text {
+    color: #007ACC;
+  }
+}
 @media screen and (min-width: 1200px) {
   * body {
     width: 100%;

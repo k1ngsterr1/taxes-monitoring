@@ -117,6 +117,20 @@
   display: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * body {
+    width: 100%;
+    height: auto;
+  }
+  * body .heading {
+    margin-top: clamp(16px, 3.5995500562vw, 64px) !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   * body {
     width: 100%;
