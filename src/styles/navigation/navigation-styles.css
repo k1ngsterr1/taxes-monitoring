@@ -13,6 +13,9 @@
   margin: auto;
   margin-top: clamp(32px, 3.33312vw, 128px);
 }
+* body .mob-nav .logo {
+  width: clamp(100px, 46.728vw, 400px);
+}
 * body .pc-nav {
   display: none;
 }
@@ -26,6 +29,7 @@
   * body {
     width: 100%;
     height: auto;
+    overflow-x: hidden !important;
   }
   * body .bm-burger-bars {
     background: #032727 !important;
@@ -52,16 +56,13 @@
     height: clamp(30px, 6.7491563555vw, 120px) !important;
     margin-left: -30px !important;
   }
-  * body .pc-nav {
-    display: none;
-  }
   * body .mob-nav {
     width: 86.4583333333%;
     margin: auto;
     margin-top: clamp(32px, 7.1991001125vw, 128px);
   }
   * body .mob-nav .logo {
-    font-size: clamp(21px, 4.7244094488vw, 84px);
+    width: 400px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -97,6 +98,7 @@
     font-size: clamp(14px, 1.45824vw, 56px);
     font-style: normal;
     font-weight: 800;
+    width: clamp(138.5px, 14.42616vw, 554px);
     line-height: normal;
   }
   * .nav .pc-nav .pc-nav-container .links-container {

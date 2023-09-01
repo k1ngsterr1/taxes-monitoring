@@ -52,6 +52,9 @@ $container: 86.45833333333333%
             margin: auto
             margin-top: $m64mob
 
+            .logo
+                width: clamp(100px,46.727999999999994vw,400px)
+
         .pc-nav
             display: none
 
@@ -65,6 +68,7 @@ $container: 86.45833333333333%
         body
             width: 100%
             height: auto
+            overflow-x: hidden !important
 
             .bm-burger-bars
                 background: #032727 !important
@@ -91,16 +95,13 @@ $container: 86.45833333333333%
                 height: clamp(30px,6.749156355455568vw,120px) !important
                 margin-left: -30px !important
 
-            .pc-nav
-                display: none
-
             .mob-nav
                 width: $container
                 margin: auto
                 margin-top: clamp(32px,7.199100112485939vw,128px)
-
                 .logo
-                    font-size: clamp(21px,4.724409448818897vw,84px)
+                    width: 400px
+                    // font-size: clamp(21px,4.724409448818897vw,84px)
 
 @media screen and  (min-width: 1200px)
 
@@ -138,6 +139,7 @@ $container: 86.45833333333333%
                         font-size: clamp(14px,1.45824vw,56px)
                         font-style: normal
                         font-weight: 800
+                        width: clamp(138.5px,14.426160000000001vw,554px)
                         line-height: normal
 
                     .links-container

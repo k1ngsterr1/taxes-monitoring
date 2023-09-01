@@ -6,6 +6,9 @@ import { stack as Menu } from "react-burger-menu";
 
 import "../styles/navigation/navigation-styles.css";
 
+import Logo from "../assets/LogoTax.svg";
+// import { log } from "console";
+
 var styles = {
   bmBurgerButton: {
     position: "fixed",
@@ -85,6 +88,7 @@ var styles = {
     height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
     position: "absolute",
     background: "rgba(0, 0, 0, 0.0)",
+    display: "none",
   },
 };
 
@@ -92,7 +96,9 @@ const Navigation = () => {
   return (
     <nav className="nav">
       <div className="mob-nav">
-        <span className="logo">Logo</span>
+        {/* <span className="logo"> */}
+        <img src={Logo} alt="logo" className="logo" />
+        {/* </span> */}
         <Menu right styles={styles}>
           <Link to="main">Главная</Link>
           <Link to="requirements">Критерии</Link>
@@ -105,7 +111,7 @@ const Navigation = () => {
       </div>
       <div className="pc-nav">
         <div className="pc-nav-container">
-          <span className="logo">Logo</span>
+          <img src={Logo} alt="logo" className="logo" />
           <div className="links-container">
             <div className="links">
               <Link to="main" className="link">
