@@ -62,40 +62,39 @@ $container: 86.45833333333333%
                 align-items: center
 
                 .logo
+                    width: clamp(125px,64.102vw, 500px)
+                    margin-top: $m64mob
+
+            .links
+                width: 100%
+                height: auto
+                display: flex
+                flex-direction: column
+                align-items: center
+                margin-top: $m32mob
+                margin-bottom: $m32mob
+
+                .link
                     color: $lightGray
-                    margin-top: $m32mob
-                    font-size: $m32mob
-
-                .links
-                    width: 100%
-                    height: auto
-                    display: flex
-                    flex-direction: column
-                    align-items: center
-                    margin-top: $m32mob
-                    margin-bottom: $m32mob
-
-                    .link
-                        color: $lightGray
-                        font-family: Raleway
-                        font-size: clamp(10.5px,4.90644vw,42px)
-                        font-style: normal
-                        font-weight: 600
-                        line-height: normal
-                        margin-top: $m16mob
-
-                .request
-                    width: 100%
-                    height: clamp(28px,13.083839999999999vw,112px)
-                    border: none
-                    margin-top: $m32mob
-                    border-radius: 4px
-                    color: $brightBlue
                     font-family: Raleway
-                    font-size: clamp(12px,5.60736vw,48px)
+                    font-size: clamp(10.5px,4.90644vw,42px)
                     font-style: normal
-                    font-weight: 700
+                    font-weight: 600
                     line-height: normal
+                    margin-top: $m16mob
+
+            .request
+                width: 100%
+                height: clamp(28px,13.083839999999999vw,112px)
+                border: none
+                margin-top: $m32mob
+                border-radius: 4px
+                color: $brightBlue
+                font-family: Raleway
+                font-size: clamp(12px,5.60736vw,48px)
+                font-style: normal
+                font-weight: 700
+                line-height: normal
 
                 .line
                     width: 100%
@@ -153,6 +152,9 @@ $container: 86.45833333333333%
                         justify-content: space-between
                         margin-top: $m64
 
+                        .logo
+                            width: clamp(138.5px,14.426160000000001vw,554px)
+
                         .white
                             color: $lightGray
                             font-family: Raleway
@@ -166,6 +168,8 @@ $container: 86.45833333333333%
                             flex-direction: row
                             align-items: center
                             justify-content: space-between
+                            cursor: pointer
+                            margin-left: clamp(200px,20.833333333333332vw,800px)
 
                             .links-cont
                                 margin-right: $m64

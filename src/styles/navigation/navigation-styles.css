@@ -119,6 +119,7 @@
     line-height: normal;
     margin-right: clamp(16px, 1.66656vw, 64px);
     transition: 0.3s all;
+    cursor: pointer;
   }
   * .nav .pc-nav .pc-nav-container .links-container .links .link:hover {
     color: #007ACC;

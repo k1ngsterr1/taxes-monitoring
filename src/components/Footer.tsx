@@ -3,11 +3,13 @@ import React from "react";
 import "../styles/footer/footer-styles.css";
 import { Link } from "react-scroll";
 
+import Logo from "../assets/LogoTaxWhite.svg";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p className="logo">Logo</p>
+        <img src={Logo} alt="logo" className="logo" />
         <nav className="links">
           <Link to="main" className="link">
             Главная
@@ -37,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="footer-pc">
         <div className="links-container">
-          <span className="white">Logo</span>
+          <img src={Logo} alt="logo" className="logo" />
           <nav className="links">
             <div className="links-cont">
               <Link className="link" to="main">
